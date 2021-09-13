@@ -21,7 +21,7 @@ END;
 $$
     LANGUAGE PLPGSQL;
 
--- verify rount5 function
+--Verify round5 function
 SELECT
 host_id, timestamp, round5(timestamp)
 FROM host_usage;
