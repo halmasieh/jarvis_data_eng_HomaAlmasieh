@@ -55,14 +55,3 @@ VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz
 
 # execute the INSERT statement through psql CLI tool
 psql -h "$psql_host" -p "$psql_port" -U "$psql_user" -d "$db_name" -c "$insert_stmt"
-
-
-
-
-
-
-
-
-
-
-

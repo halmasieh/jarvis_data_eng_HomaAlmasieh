@@ -50,14 +50,3 @@ VALUES ('$timestamp', '$memory_free', '$cpu_idle', '$cpu_kernel', '$disk_io', '$
 
 # execute the INSERT statement through psql CLI tool
 psql -h "$psql_host" -p "$psql_port" -U "$psql_user" -d "$db_name" -c "$insert_stmt"
-
-
-
-
-
-
-
-
-
-
-
