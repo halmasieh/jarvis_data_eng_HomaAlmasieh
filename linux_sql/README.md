@@ -47,8 +47,24 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 `psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
 
 # Implemenation
-Discuss how you implement the project.
+`./Scripts/psql_docker.sh`
 
+- Created a psql database using docker with the given username and password
+
+`./sql/ddl.sql`
+
+- Created `ddl.sql` to generate two tables storing hardware specifications and resource usage
+
+`./Scripts/host_info.sh`
+- Created bash script to parse hardware specifications
+
+`./Scripts/host_usage.sh`
+- d bash script to parse resource usage data
+
+- Used `crontab` to parse resource usage and send data to database every one minute.
+
+`./sql/queries.sql`
+- Created `queries.sql` to query data from database for usage information and failure detection.
 
 ## Architecture
 <p align="center">
