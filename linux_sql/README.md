@@ -59,7 +59,7 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 - Created bash script to parse hardware specifications
 
 `./Scripts/host_usage.sh`
-- d bash script to parse resource usage data
+- Created bash script to parse resource usage data
 
 - Used `crontab` to parse resource usage and send data to database every one minute.
 
