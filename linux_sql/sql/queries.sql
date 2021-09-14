@@ -39,7 +39,7 @@ END;
 $$
     LANGUAGE PLPGSQL;
 
---Average used memory in percentage over 5 mins interval for each host.
+--Average used memory in percentage over 5 minutes interval for each host.
 select
 	host_usage.host_id,
 	host_info.hostname,
