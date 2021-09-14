@@ -46,4 +46,9 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
   
 `psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
 
+# Implemenation
+Discuss how you implement the project.
 
+
+## Architecture
+![my image](./assets/Architecture-linux_sql (1)) 
