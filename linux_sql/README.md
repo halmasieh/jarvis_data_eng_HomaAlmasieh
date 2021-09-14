@@ -51,4 +51,6 @@ Discuss how you implement the project.
 
 
 ## Architecture
+<p align="center">
 ![my image](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/linux_sql/assets/Architecture-linux_sql%20(1).jpg) 
+</p>
