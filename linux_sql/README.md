@@ -35,16 +35,12 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
   
 `./Scripts/host_usage.sh  psql_host psql_port db_name psql_user psql_password`
 - Crontab setup to allow `host_usage.sh` to run every single minute
-  
-#edit crontab jobs
-  
-  crontab -e`
+ 
+`crontab -e`
 
-`#add this to crontab 
 `* * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log`
 
-`#list crontab jobs to verify process is running
-crontab -l`
+`crontab -l`
 
 - Check hardware resource usage data using `queries.sql`
   
