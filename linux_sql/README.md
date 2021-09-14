@@ -20,26 +20,34 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 # Quick Start
 
 - Create a `psql` container using `psql_docker.sh` with the given `db_username` and `db_password`
-  `./Scripts/psql_docker.sh create db_username db_password`
-- Start a `psql instance` using `psql_docker`.
-  `./Scripts/psql_docker.sh start`
+  
+`./Scripts/psql_docker.sh create db_username db_password`
+- Start a `psql instance` using `psql_docker`
+
+`./Scripts/psql_docker.sh start`
 - Create tables using `ddl.sql`
-  `psql -h psql_host -p 5432 -U db_username -d host_agent -f ddl.sql`
+
+`psql -h psql_host -p 5432 -U db_username -d host_agent -f ddl.sql`
 - Insert node hardware data into the database, host_agent, using host_info.sh script
-  `./Scripts/host_info.sh  psql_host psql_port db_name psql_user psql_password`
+  
+`./Scripts/host_info.sh  psql_host psql_port db_name psql_user psql_password`
 - Insert hardware usage data into the DB using host_usage.sh
-  `./Scripts/host_usage.sh  psql_host psql_port db_name psql_user psql_password`
+  
+`./Scripts/host_usage.sh  psql_host psql_port db_name psql_user psql_password`
 - Crontab setup to allow `host_usage.sh` to run every single minute
-  `#edit crontab jobs
+  
+#edit crontab jobs
+  
   crontab -e`
 
-`#add this to crontab subsituting <path>
-* * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log`
+`#add this to crontab 
+`* * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log`
 
 `#list crontab jobs to verify process is running
 crontab -l`
 
 - Check hardware resource usage data using `queries.sql`
-  `psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
+  
+`psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
 
 
