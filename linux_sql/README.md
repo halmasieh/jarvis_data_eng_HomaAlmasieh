@@ -87,7 +87,7 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 
 `./script/host_info.sh psql_host psql_port db_name psql_user psql_user psql_password`
 
-- `host_usage.sh` is a bash script that collects resource usage data of a node and insert it into the database.
+- `host_usage.sh` is a bash script that collects resource usage data of a node and insert it into the database
 
 `./script/host_usage.sh psql_host psql_port db_name psql_user psql_user psql_password`
 
@@ -111,10 +111,10 @@ cat /tmp/host_usage.log
 #execute a sql file using psql command
 psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
 ```
-- `./sql/queries.sql` is a SQL script used to answer business questions. It has 3 distinct queries  to answer 3 different business questions.
+- `./sql/queries.sql` is a SQL script with 3 distinct queries  to answer 3 different business questions.
 
-1- Group hosts by CPU number and sort by their total memory size in descending order
-2- Find the average memory usage in percentage over a five-minute interval
-3- Detect host failure for less than three data points within 5-min interval
+1. Group hosts by CPU number and sort by their total memory size in descending order
+2. Find the average memory usage in percentage over a five-minute interval
+3. Detect host failure for less than three data points within 5-min interval
 
 `psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
