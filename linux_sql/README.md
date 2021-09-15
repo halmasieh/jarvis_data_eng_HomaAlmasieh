@@ -124,7 +124,7 @@ psql -h psql_host -p 5432 -U psql_user -d db_name -f queries/ddl.sql
 ## Database Modeling
 The schema for `host_info:`
 | Attribute     | Data Type   | Constraint    | Description                                     |
-| :---------    | :---------: | :---------:   | :---------:                                     |
+| :---------    | :--------- | :---------   | :---------                                     |
 | `id`          | `SERIAL`    | `PRIMARY KEY` | Auto-incremented unique identifier of the node  |
 | `hostname`    | `VARCHAR`   | `UNIQUE`       | Name of the host computer                      |
 | `cpu_number`      | `INT`       | `NOT NULL` | Number of CPUs on the host computer            |
@@ -137,7 +137,7 @@ The schema for `host_info:`
 
 The schema for `host_usage:`
 | Attribute     | Data Type   | Constraint    | Description                                     |
-| :---------    | :---------: | :---------:   | :---------:                                     |
+| :---------    | :--------- | :---------   | :---------                                     |
 | `timestamp` | `TIMESTAMP`  | `PRIMARY KEY`  | The time of data entry ( in YYYY-MM-DD HH:MM:SS format) <br /> Unique identifier of the node  |
 | `host_id`   | `INT`          | `REFERENCES host_info(id)` | Foreign key referencing `id` attribute from `host_info`  |
 | `memory_free`   | `INT`       | `NOT NULL`   | Total unused memory on the host computer (in kB)   |
