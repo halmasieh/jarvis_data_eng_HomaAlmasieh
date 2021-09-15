@@ -82,5 +82,39 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 
 # Stop the psql container
 ./script/psql_docker.sh stop
+```
+- `host_info.sh` is a bash script that collects the hardware specification data and insert it into the database
+
+`./script/host_info.sh psql_host psql_port db_name psql_user psql_user psql_password`
+
+- `host_usage.sh` is a bash script that collects resource usage data of a node and insert it into the database.
+
+`./script/host_usage.sh psql_host psql_port db_name psql_user psql_user psql_password`
+
+- `Crontab` script is used to collect host_usage.sh every minute
+```
+#edit crontab jobs 
+crontab -e 
+
+#add this to crontab subsituting <path>
+* * * * * bash <path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
+ 
+#list crontab jobs to verify process is running
+crontab -l
+
+#verify script is running by checking log file
+cat /tmp/host_usage.log
+```
+- `./sql/ddl.sql` is SQL script used to create the `host_agent` database in postgreSQL and generate two tables `host_info` and `host_usage` in sql
 
 ```
+#execute a sql file using psql command
+psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
+```
+- `./sql/queries.sql` is a SQL script used to answer business questions. It has 3 distinct queries  to answer 3 different business questions.
+
+1- Group hosts by CPU number and sort by their total memory size in descending order
+2- Find the average memory usage in percentage over a five-minute interval
+3- Detect host failure for less than three data points within 5-min interval
+
+`psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
