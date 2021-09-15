@@ -117,4 +117,7 @@ psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
 2. Find the average memory usage in percentage over a five-minute interval
 3. Detect host failure for less than three data points within 5-min interval
 
-`psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
+```
+#execute a sql file using psql command
+psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
+```
