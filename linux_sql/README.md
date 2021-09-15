@@ -122,6 +122,10 @@ psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
 psql -h psql_host -p 5432 -U psql_user -d db_name -f queries/ddl.sql
 ```
 ## Database Modeling
-| Attribute  | Data Type   | Constraint    | Description                                     |
-| :--------- | :---------: | :---------:   | :---------:                                     |
-| `id`       | `SERIAL`    | `PRIMARY KEY` | Auto-incremented unique identifier of the node  |
+`host_info:`
+| Attribute     | Data Type   | Constraint    | Description                                     |
+| :---------    | :---------: | :---------:   | :---------:                                     |
+| `id`          | `SERIAL`    | `PRIMARY KEY` | Auto-incremented unique identifier of the node  |
+| `hostname`    | `VARCHAR`   | `UNIQUE`      | Name of the host computer                       |
+| `cpu_number`      | `INT`       | `PRIMARY KEY` | Auto-incremented unique identifier of the node  |
+| `cpu_architecture` | `VARCHAR`    | `PRIMARY KEY` | Auto-incremented unique identifier of the node |
