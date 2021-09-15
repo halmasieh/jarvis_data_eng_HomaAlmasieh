@@ -119,5 +119,5 @@ psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
 
 ```
 #execute a sql file using psql command
-psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
+psql -h psql_host -p 5432 -U psql_user -d db_name -f queries/ddl.sql
 ```
