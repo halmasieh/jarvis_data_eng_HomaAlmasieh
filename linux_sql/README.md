@@ -132,18 +132,18 @@ The schema for `host_info:`
 | `cpu_model` | `VARCHAR`  | `NOT NULL` | Type of CPU processor model                           |
 | `cpu_mhz`   | `FLOAT`    | `NOT NULL` | Speed of CPU processor (in MHZ)                       |
 | `l2_cache`  | `INT`      | `NOT NULL` | Size of the L2 cache (in kB)                          |
-| `total_mem` | `INT`      | `NOT NULL` | Total memory on the host computer (kB)                |
-| `timestamp` | `TIMESTAMP`  | `NOT NULL` | The time of data entry (YYYY-MM-DD HH:MM:SS format) |
+| `total_mem` | `INT`      | `NOT NULL` | Total memory on the host computer (in kB)                |
+| `timestamp` | `TIMESTAMP`  | `NOT NULL` | The time of data entry (in YYYY-MM-DD HH:MM:SS format) |
 
 The schema for `host_usage:`
 | Attribute     | Data Type   | Constraint    | Description                                     |
 | :---------    | :---------: | :---------:   | :---------:                                     |
-| `timestamp` | `TIMESTAMP`  | `PRIMARY KEY`  | The time of data entry (YYYY-MM-DD HH:MM:SS format), Unique identifier of the node  |
+| `timestamp` | `TIMESTAMP`  | `PRIMARY KEY`  | The time of data entry ( in YYYY-MM-DD HH:MM:SS format) <br /> Unique identifier of the node  |
 | `host_id`   | `INT`          | `REFERENCES host_info(id)` | Foreign key referencing `id` attribute from `host_info`  |
-| `memory_free`   | `INT`       | `NOT NULL`   | Total unused memory on the host computer (kB)   |
+| `memory_free`   | `INT`       | `NOT NULL`   | Total unused memory on the host computer (in kB)   |
 | `cpu_idle`      | `INT`       | `NOT NULL` | Number of CPUs on the host computer            |
 | `cpu_kernel`    | `INT`       | `NOT NULL` | CPU processor idle time (%)                    |
 | `cpu_model`     | `INT`       | `NOT NULL` | CPU kernel run time (%)                        |
 | `disk_io`       | `INT`       | `NOT NULL` | Number of disk I/O                             |
-| `disk_available`  | `INT`     | `NOT NULL` | Total available disk space (mB)                |
+| `disk_available`  | `INT`     | `NOT NULL` | Total available disk space ( in mB)                |
            
