@@ -121,3 +121,7 @@ psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
 #execute a sql file using psql command
 psql -h psql_host -p 5432 -U psql_user -d db_name -f queries/ddl.sql
 ```
+## Database Modeling
+| Attribute  | Data Type   | Constraint    | Description                                     |
+| :--------- | :---------: | :---------:   | :---------:                                     |
+| `id`       | `SERIAL`    | `PRIMARY KEY` | Auto-incremented unique identifier of the node  |
