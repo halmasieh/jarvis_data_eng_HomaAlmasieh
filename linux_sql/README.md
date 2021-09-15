@@ -146,4 +146,15 @@ The schema for `host_usage:`
 | `cpu_model`     | `INT`       | `NOT NULL` | CPU kernel run time (%)                        |
 | `disk_io`       | `INT`       | `NOT NULL` | Number of disk I/O                             |
 | `disk_available`  | `INT`     | `NOT NULL` | Total available disk space ( in mB)                |
-           
+
+# Test
+How did you test your bash scripts and SQL queries? What was the result?
+
+# Deployment
+How did you deploy your app? (e.g. Github for SCM and docker for PSQL)
+
+# Improvements
+- Create queries to answer more business questions
+- Create a bash script to collect Linux usage data in different time intervals
+- Send out alert when certain resource is overused           
+- Add the option to remove a psql instance using psql_docker.sh 
