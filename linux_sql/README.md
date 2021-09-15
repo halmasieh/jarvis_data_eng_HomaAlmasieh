@@ -70,3 +70,17 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 <p align="center">
   <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/linux_sql/assets/Architecture-linux_sql%20(1).jpg" alt=""/>
 </p>
+
+## Scripts
+- `psql_docker.sh` is a bash script that can create, start or stop a container as follows:
+```
+# Create a psql instance
+./script/psql_docker.sh create [db_username] [db_password]
+
+# Start the psql container
+./script/psql_docker.sh start
+
+# Stop the psql container
+./script/psql_docker.sh stop
+
+```
