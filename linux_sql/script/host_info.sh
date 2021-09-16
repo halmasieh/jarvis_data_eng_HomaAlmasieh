@@ -29,26 +29,26 @@ mem_out=$(cat /proc/meminfo)
 hostname=$(hostname -f)
 
 #note: `xargs` is a trick to remove leading and trailing white spaces
-cpu_number=$(echo "$lscpu_out"  | grep "^CPU\(s\):" | awk '{print $2}' | xargs)
+cpu_number=$(echo "$lscpu_out" | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
 
 #print the cpu_architecture
-cpu_architecture=$(echo "$lscpu_out"  | grep "Architecture:" | awk '{print $2}' | xargs)
+cpu_architecture=$(echo "$lscpu_out" | egrep "^Architecture:" | awk '{print $2}' | xargs)
 # cpu_architecture =  x86_64
 
 #print the cpu_model
-cpu_model=$(echo "$lscpu_out"  | grep "Model:" | awk '{print $2}' | xargs)
+cpu_model=$(echo "$lscpu_out" | egrep "^Model name:" | sed 's/Model name://' | xargs)
 # cpu_model =  63
 
 #print the cpu_mhz
-cpu_mhz=$(echo "$lscpu_out" | grep "CPU MHZ" | awk '{print $3}' | xargs)
+cpu_mhz=$(echo "$lscpu_out" | egrep "^CPU MHz:" | sed 's/CPU MHz://' | xargs)
 # cpu_mhz = 2299.998
 
 #print the l2_cache (KB)
-l2_cache=$(echo "$lscpu_out" | grep "l2 cache:" | sed awk "{print $3}"  | xargs | sed 's/.$//')
+l2_cache=$(echo "$lscpu_out" | egrep "^L2 cache:" | sed 's/L2 cache://' | sed 's/\(\d*\).$/\1/' | xargs)
 # L2_cache = 256kB
 
 #view MemTotal (KB)
-total_mem=$(echo "$mem_out"| grep 'MemTotal:' | awk '{print $2}' | xargs)
+total_$mentotal_out" | emem=$(echo "grep "^MemTotal:" | awk '{print $2}' | awk '{print int($1/1000)}' | xargs)
 # total_mem = 7489636 KB
 
 #current timestamp in `2019-11-26 14:40:19` format
@@ -60,3 +60,7 @@ VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz
 
 # execute the INSERT statement through psql CLI tool
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"
+
+
+
+
