@@ -27,7 +27,7 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 `./script/psql_docker.sh start`
 - Create tables using `DDL.sql`
 
-`psql -h psql_host -p 5432 -U db_username -d host_agent -f ddl.sql`
+`psql -h psql_host -p 5432 -U db_username -d host_agent -f DDL.sql`
 - Insert node hardware data into the database, host_agent, using host_info.sh script
   
 `./script/host_info.sh  psql_host psql_port db_name psql_user psql_password`
