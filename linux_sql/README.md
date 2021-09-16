@@ -148,7 +148,7 @@ The schema for `host_usage:`
 | `disk_available`  | `INT`     | `NOT NULL` | Total available disk space ( in mB)                |
 
 # Test
-
+All bash scripts `./script/psql_docker.sh`, `./script/host_info.sh`, `./script/host_usage.sh` have been tested manually. `./sql/ddl.sql` and `./sql/queries.sql` were executed individually to make sure the results are correct and queries work properly.
 
 # Deployment
 The project is built with bash scripts, the source code is hosted on Github.
