@@ -44,7 +44,7 @@ cpu_mhz=$(echo "$lscpu_out" | grep "CPU MHZ" | awk '{print $3}' | xargs)
 # cpu_mhz = 2299.998
 
 #print the l2_cache (KB)
-l2_cache=$(echo "$lscpu_out" | grep "L2 cache:" | sed awk "{print $3}"  | xargs | sed 's/.$//')
+l2_cache=$(echo "$lscpu_out" | grep "l2 cache:" | sed awk "{print $3}"  | xargs | sed 's/.$//')
 # L2_cache = 256kB
 
 #view MemTotal (KB)
@@ -55,7 +55,7 @@ total_mem=$(echo "$mem_out"| grep 'MemTotal:' | awk '{print $2}' | xargs)
 timestamp=$(date +"%Y-%m-%d %T")
 
 # insert statement
-insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, L2_cache,total_mem, timestamp)
+insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache,total_mem, timestamp)
 VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$total_mem', '$timestamp');"
 
 # execute the INSERT statement through psql CLI tool
