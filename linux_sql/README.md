@@ -21,19 +21,19 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 
 - Create a `psql` container using `psql_docker.sh` with the given `db_username` and `db_password`
   
-`./Scripts/psql_docker.sh create db_username db_password`
+`./script/psql_docker.sh create db_username db_password`
 - Start a `psql instance` using `psql_docker`
 
-`./Scripts/psql_docker.sh start`
+`./script/psql_docker.sh start`
 - Create tables using `ddl.sql`
 
 `psql -h psql_host -p 5432 -U db_username -d host_agent -f ddl.sql`
 - Insert node hardware data into the database, host_agent, using host_info.sh script
   
-`./Scripts/host_info.sh  psql_host psql_port db_name psql_user psql_password`
+`./script/host_info.sh  psql_host psql_port db_name psql_user psql_password`
 - Insert hardware usage data into the DB using host_usage.sh
   
-`./Scripts/host_usage.sh  psql_host psql_port db_name psql_user psql_password`
+`./script/host_usage.sh  psql_host psql_port db_name psql_user psql_password`
 - Crontab setup to allow `host_usage.sh` to run every single minute
  
 `crontab -e`
@@ -47,7 +47,7 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 `psql -h psql_host -U psql_user -d db_name -f sql/queries.sql`
 
 # Implemenation
-`./Scripts/psql_docker.sh`
+`./script/psql_docker.sh`
 
 - Created a psql database using docker with the given username and password
 
@@ -55,10 +55,10 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 
 - Created `ddl.sql` to generate two tables storing hardware specifications and resource usage
 
-`./Scripts/host_info.sh`
+`./script/host_info.sh`
 - Created bash script to parse hardware specifications
 
-`./Scripts/host_usage.sh`
+`./script/host_usage.sh`
 - Created bash script to parse resource usage data
 
 - Used `crontab` to parse resource usage and send data to database every one minute.
@@ -148,10 +148,10 @@ The schema for `host_usage:`
 | `disk_available`  | `INT`     | `NOT NULL` | Total available disk space ( in mB)                |
 
 # Test
-How did you test your bash scripts and SQL queries? What was the result?
+
 
 # Deployment
-How did you deploy your app? (e.g. Github for SCM and docker for PSQL)
+The project is built with bash scripts, the source code is hosted on Github.
 
 # Improvements
 - Create queries to answer more business questions
