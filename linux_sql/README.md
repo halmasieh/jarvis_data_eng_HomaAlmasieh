@@ -25,7 +25,7 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 - Start a `psql instance` using `psql_docker`
 
 `./script/psql_docker.sh start`
-- Create tables using `ddl.sql`
+- Create tables using `DDL.sql`
 
 `psql -h psql_host -p 5432 -U db_username -d host_agent -f ddl.sql`
 - Insert node hardware data into the database, host_agent, using host_info.sh script
@@ -51,9 +51,9 @@ PostgresSQL, SQL, [Google Cloud Platform](https://console.cloud.google.com/), Gi
 
 - Created a psql database using docker with the given username and password
 
-`./sql/ddl.sql`
+`./sql/DDL.sql`
 
-- Created `ddl.sql` to generate two tables storing hardware specifications and resource usage
+- Created `DDL.sql` to generate two tables storing hardware specifications and resource usage
 
 `./script/host_info.sh`
 - Created bash script to parse hardware specifications
@@ -105,11 +105,11 @@ crontab -l
 #verify script is running by checking log file
 cat /tmp/host_usage.log
 ```
-- `./sql/ddl.sql` is SQL script used to create the `host_agent` database in postgreSQL and generate two tables `host_info` and `host_usage` in sql
+- `./sql/DDL.sql` is SQL script used to create the `host_agent` database in postgreSQL and generate two tables `host_info` and `host_usage` in sql
 
 ```
 #execute a sql file using psql command
-psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
+psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/DDL.sql
 ```
 - `./sql/queries.sql` is a SQL script with 3 distinct queries  to answer 3 different business questions.
 
@@ -119,7 +119,7 @@ psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/ddl.sql
 
 ```
 #execute a sql file using psql command
-psql -h psql_host -p 5432 -U psql_user -d db_name -f queries/ddl.sql
+psql -h psql_host -p 5432 -U psql_user -d db_name -f sql/queries.sql
 ```
 ## Database Modeling
 The schema for `host_info:`
@@ -148,7 +148,7 @@ The schema for `host_usage:`
 | `disk_available`  | `INT`     | `NOT NULL` | Total available disk space ( in mB)                |
 
 # Test
-All bash scripts `./script/psql_docker.sh`, `./script/host_info.sh`, `./script/host_usage.sh` have been tested manually. `./sql/ddl.sql` and `./sql/queries.sql` were executed individually to make sure the results are correct and queries work properly.
+All bash scripts `./script/psql_docker.sh`, `./script/host_info.sh`, `./script/host_usage.sh` have been tested manually. `./sql/DDL.sql` and `./sql/queries.sql` were executed individually to make sure the results are correct and queries work properly.
 
 # Deployment
 The project is built with bash scripts, the source code is hosted on Github.
