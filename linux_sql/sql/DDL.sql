@@ -26,8 +26,3 @@ CREATE TABLE IF NOT EXISTS  PUBLIC.host_info
   disk_available     INT          NOT NULL,
   FOREIGN KEY (host_id) REFERENCES PUBLIC.host_info (id)
   );
-
-  -- DML
-  -- INSERT statement
-  INSERT INTO host_usage ('timestamp', memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
-  VALUES ('$timestamp', '$memory_free', '$cpu_idle', '$cpu_kernel', '$disk_io', '$disk_available');
