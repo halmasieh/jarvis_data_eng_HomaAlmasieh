@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 #command line arguments
@@ -10,9 +9,10 @@ psql_password=$5
 
 #check the correct number of arguments
 if [ "$#" -ne 5 ]; then
-  echo "Error, host_info requires 5 arguments."
-  exit 1
-fi
+   echo "host_info: invalid arguments: require 5 arguments" >&2
+   echo "usage: ./host_info.sh psql_host psql_port db_name psql_user psql_password" >&2
+   exit 1
+ fi
 
 # export password for psql instance (environment variable)
 export PGPASSWORD="$psql_password"
