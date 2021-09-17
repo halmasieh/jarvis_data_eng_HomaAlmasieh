@@ -33,6 +33,7 @@ timestamp=$(date +"%Y-%m-%d %T")
 
 #create host_id based on the unique hostname from host.info table
 host_id=$(psql -h localhost -p 5432 -U postgres -d host_agent -c "SELECT id FROM host_info WHERE hostname='$hostname'" | sed -n "3p" | xargs)
+#host_id="SELECT id FROM host_info WHERE hostname='$hostname'"
 
 #view MemFree
 memory_free=$(echo "$mem_out" | grep 'MemFree:' | awk '{print $2}' | xargs)
@@ -51,7 +52,7 @@ disk_io=$(vmstat | grep -v 'io|bi' | awk '{print $9+$10}' | xargs)
 disk_available=$(echo "$df_out" | sed -n 2p | awk '{print $4}' | sed 's/\(\d*\).$/\1/' | xargs)
 
 # insert statement
-insert_stmt="INSERT INTO host_info (timestamp, host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
+insert_stmt="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
 VALUES ('$timestamp', '$host_id', '$memory_free', '$cpu_idle', '$cpu_kernel', '$disk_io', '$disk_available');"
 
 # execute the INSERT statement through psql CLI tool
