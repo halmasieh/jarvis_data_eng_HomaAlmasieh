@@ -28,25 +28,28 @@ mem_out=$(cat /proc/meminfo)
 #free disk space in root directory
 df_out=`df -BM /`
 
+# disk statistics
+vm_disk_out=`vmstat -d`
+
+vmstat_out=`vmstat -t`
+
 #current timestamp in `2019-11-26 14:40:19` format
 timestamp=$(date +"%Y-%m-%d %T")
 
 #create host_id based on the unique hostname from host.info table
 host_id=$(psql -h localhost -p 5432 -U postgres -d host_agent -c "SELECT id FROM host_info WHERE hostname='$hostname'" | sed -n "3p" | xargs)
-#host_id="SELECT id FROM host_info WHERE hostname='$hostname'"
 
-#view MemFree
-memory_free=$(echo "$mem_out" | grep 'MemFree:' | awk '{print $2}' | xargs)
-# Memory_free = 6395063 KB
+#view MemFreeme
+memory_free=$(echo "$mem_out" | egrep "^MemFree:" | awk '{print $2}' | xargs)
 
 #view cpu idle in percentage
-cpu_idle=$(vmstat | grep -v 'cpu|id' | awk '{print $15}' | xargs)
+cpu_idle=$(echo "$vmstat_out" | sed -n 3p | awk '{print  $15}' | xargs)
 
 #view cpu kernel in percentage
-cpu_kernel=$(vmstat | grep -v 'cpu|sy' | awk '{print $14}' | xargs)
+cpu_kernel=$(echo "$vmstat_out" | sed -n 3p | awk '{print  $14}' | xargs)
 
 #view the number of disk io
-disk_io=$(vmstat | grep -v 'io|bi' | awk '{print $9+$10}' | xargs)
+disk_io=$(vmstat -D | sed -n 1p | awk '{print $1}' | xargs)
 
 #view disk available (root directory available disk
 disk_available=$(echo "$df_out" | sed -n 2p | awk '{print $4}' | sed 's/\(\d*\).$/\1/' | xargs)
