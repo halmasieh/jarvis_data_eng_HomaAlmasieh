@@ -9,8 +9,7 @@ psql_password=$5
 
 #check the correct number of arguments
 if [ "$#" -ne 5 ]; then
-   echo "host_info: invalid arguments: require 5 arguments" >&2
-   echo "usage: ./host_info.sh psql_host psql_port db_name psql_user psql_password" >&2
+   echo "Error: Invalid number of arguments."
    exit 1
  fi
 
