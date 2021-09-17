@@ -21,7 +21,7 @@ export PGPASSWORD="$psql_password"
 lscpu_out=$(lscpu)
 
 #save cat /proc/meminfo as mem_out
-mem_out=$(cat /proc/meminfo)
+mem_out=`cat /proc/meminfo`
 
 #parse host hardware specifications and create data columns
 #id=1, psql db auto-increment
@@ -48,7 +48,7 @@ l2_cache=$(echo "$lscpu_out" | egrep "^L2 cache:" | sed 's/L2 cache://' | sed 's
 # L2_cache = 256kB
 
 #view MemTotal (KB)
-total_$mentotal_out" | emem=$(echo "grep "^MemTotal:" | awk '{print $2}' | awk '{print int($1/1000)}' | xargs)
+total_mem=$(echo "$mem_out" | egrep "^MemTotal:" | awk '{print $2}' | awk '{print int($1/1000)}' | xargs)
 # total_mem = 7489636 KB
 
 #current timestamp in `2019-11-26 14:40:19` format
