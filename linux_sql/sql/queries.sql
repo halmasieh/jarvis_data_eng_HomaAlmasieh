@@ -27,8 +27,10 @@ host_id, timestamp, round5(timestamp)
 FROM host_usage;
 
 --Create a function that gets free_memory and host_id and returns used memory percentage.
-CREATE FUNCTION used_memory_percentage(free_memory INTEGER, host_id SERIAL) RETURNS NUMERIC AS
+CREATE FUNCTION used_memory_percentage(free_memory INTEGER, host_id INTEGER) RETURNS NUMERIC AS
 $$
+DECLARE
+    total_memory INTEGER;
 BEGIN
     SELECT (total_mem / 1000)
     INTO total_memory
@@ -58,20 +60,13 @@ GROUP BY
    LIMIT 5;
 
    --Detect host failure for less than three data points within 5-min interval.
-select
-	host_id,
-	round5(
-      CAST(timestamp As timestamp)
-   ) AS timestamp,
-	count(timestamp) As num_data_points
-from
-   host_usage
-group by
-   host_id,
-   round5(
-      CAST(timestamp As timestamp)
-   )
-having
-count(timestamp) <3
-order by
-num_data_points asc;
+SELECT
+  host_id,
+  date_trunc('hour', timestamp) + date_part('minute', timestamp)::int / 5 * interval '5 min' AS ts,
+  COUNT(*) as num_data_points
+FROM
+  host_usage
+GROUP BY
+  host_id, ts
+HAVING
+  COUNT(*) < 3;

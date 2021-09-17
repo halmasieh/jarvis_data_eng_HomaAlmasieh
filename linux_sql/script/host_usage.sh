@@ -25,6 +25,9 @@ hostname=$(hostname -f)
 #save cat /proc/meminfo as mem_out
 mem_out=$(cat /proc/meminfo)
 
+#free disk space in root directory
+df_out=`df -BM /`
+
 #current timestamp in `2019-11-26 14:40:19` format
 timestamp=$(date +"%Y-%m-%d %T")
 
@@ -45,7 +48,7 @@ cpu_kernel=$(vmstat | grep -v 'cpu|sy' | awk '{print $14}' | xargs)
 disk_io=$(vmstat | grep -v 'io|bi' | awk '{print $9+$10}' | xargs)
 
 #view disk available (root directory available disk
-disk_available=$(df -BM / | grep-E "^/dev/sda2" | awk '{print $4}' | sed 's/.$//' | xargs)
+disk_available=$(echo "$df_out" | sed -n 2p | awk '{print $4}' | sed 's/\(\d*\).$/\1/' | xargs)
 
 # insert statement
 insert_stmt="INSERT INTO host_info (timestamp, host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
