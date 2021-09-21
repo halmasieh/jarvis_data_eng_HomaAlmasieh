@@ -28,7 +28,7 @@ mem_out=$(cat /proc/meminfo)
 #free disk space in root directory
 df_out=`df -BM /`
 
-# disk statistics
+#disk statistics
 vm_disk_out=`vmstat -d`
 
 vmstat_out=`vmstat -t`
@@ -51,7 +51,7 @@ cpu_kernel=$(echo "$vmstat_out" | sed -n 3p | awk '{print  $14}' | xargs)
 #view the number of disk io
 disk_io=$(vmstat -D | sed -n 1p | awk '{print $1}' | xargs)
 
-#view disk available (root directory available disk
+#view disk available (root directory available disk)
 disk_available=$(echo "$df_out" | sed -n 2p | awk '{print $4}' | sed 's/\(\d*\).$/\1/' | xargs)
 
 # insert statement
@@ -60,3 +60,5 @@ VALUES ('$timestamp', '$host_id', '$memory_free', '$cpu_idle', '$cpu_kernel', '$
 
 # execute the INSERT statement through psql CLI tool
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"
+
+exit $?
