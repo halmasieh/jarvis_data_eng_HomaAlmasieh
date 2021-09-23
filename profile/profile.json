@@ -34,7 +34,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Implemented a Monitoring Agent on a node/server within the linux cluster to collect the hardware specifications and monitor the cluster node resource usage in real time. This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information submitted through bash scripts installed on each node.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
