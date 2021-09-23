@@ -35,8 +35,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 
 ## Highlighted Projects
-**Spotify Analysis** [[GitHub](https://github.com/halmasieh/Spotify_Analysis)]: Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features and have utilized Tableau to visualize the outcomes and discuss the findings. 
- - key Tech: Web Scaping, Pandas, SKLearn, Tableau
+**Spotify Analysis** [[GitHub](https://github.com/halmasieh/Spotify_Analysis)]: Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features and have utilized Tableau to visualize the outcomes and discuss the findings.
+ key Tech: Web Scaping, Pandas, SKLearn, Tableau
 
 **Credit Risk Analysis** [[GitHub](https://github.com/halmasieh/Credit_Risk_Analysis)]: Used the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I applied oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, I evaluated the performance of these models to be used to predict credit risk.
 
