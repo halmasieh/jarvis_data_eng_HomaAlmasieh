@@ -100,13 +100,13 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.",
+      "description": "\n - Implemented various data projects using tools and technologies such as Linux/Bash, RDBMS/SQL, Java, Docker \n - Collaborated in the develope team and followed the Scrum Agile methology by hosting daily meetings \n - used Git and GitFlow in every project",
       "duration": "2021-present",
       "title": "Data Engineer"
     },
     {
       "company": "Vaughan College",
-      "description": "\n - Planned and presented math lessons to facilitate students understanding in the college. \n - Prepared and distributed learning material such as notes, assignments, tests, and final examinations \n - Ensured that the classroom remains safe and conductive to learning \n - Graded assessments in a timely manner \n - Documented and reported on students' progress \n - Attended meetings with parents and staff",
+      "description": "\n - Planned and presented math lessons to facilitate students understanding in the college. \n - Prepared and distributed learning materials such as notes, assignments, tests, and final examinations \n - Ensured that the classroom remains safe and conductive to learning \n - Graded assessments in a timely manner \n - Documented and reported on students' progress \n - Attended meetings with parents and staffs",
       "duration": "2017-2021",
       "title": "College Instructor"
     },
@@ -118,7 +118,7 @@
     },
     {
       "company": "Isfahan University",
-      "description": "\n - Faculty member of Isfahan University for more than 13 years \n - Developed curricula and delivered course material \n - Conducted research with over 20 published paper with more than 528 citation \n - Supervised and advised on dissertation in undergraduate and graduate students \n - Specialized in analyzing and synthesizing applied problems and algorithms \n - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science \n - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical derivatives",
+      "description": "\n - Faculty member of Isfahan University for more than 13 years \n - Developed curricula and delivered course materials \n - Conducted research with over 20 published paper with more than 528 citation \n - Supervised and advised on dissertation in undergraduate and graduate students \n - Specialized in analyzing and synthesizing applied problems and algorithms \n - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science \n - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical Derivatives",
       "duration": "2003-2015",
       "title": "Assistant Professor"
     }

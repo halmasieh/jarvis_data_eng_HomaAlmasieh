@@ -44,15 +44,18 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis (2021-present)**: Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.
+**Data Engineer, Jarvis (2021-present)**: 
+ - Implemented various data projects using tools and technologies such as Linux/Bash, RDBMS/SQL, Java, Docker 
+ - Collaborated in the develope team and followed the Scrum Agile methology by hosting daily meetings 
+ - used Git and GitFlow in every project
 
 **College Instructor, Vaughan College (2017-2021)**: 
  - Planned and presented math lessons to facilitate students understanding in the college. 
- - Prepared and distributed learning material such as notes, assignments, tests, and final examinations 
+ - Prepared and distributed learning materials such as notes, assignments, tests, and final examinations 
  - Ensured that the classroom remains safe and conductive to learning 
  - Graded assessments in a timely manner 
  - Documented and reported on students' progress 
- - Attended meetings with parents and staff
+ - Attended meetings with parents and staffs
 
 **Research Associate, Ryerson University (2015-2017)**: 
  - Post-Doctoral Fellowship (PDF) at Electrical & Computer Department of Ryerson University 
@@ -61,12 +64,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 **Assistant Professor, Isfahan University (2003-2015)**: 
  - Faculty member of Isfahan University for more than 13 years 
- - Developed curricula and delivered course material 
+ - Developed curricula and delivered course materials 
  - Conducted research with over 20 published paper with more than 528 citation 
  - Supervised and advised on dissertation in undergraduate and graduate students 
  - Specialized in analyzing and synthesizing applied problems and algorithms 
  - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science 
- - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical derivatives
+ - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical Derivatives
 
 
 ## Education
