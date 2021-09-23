@@ -92,7 +92,7 @@
     {
       "bullets": [
         "List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)",
-        "Strong research scientist with over 20 published articles with more than 535 citation, [click here](https://scholar.google.ca/citations?hl=en\u0026user=D5P5et4AAAAJ)"
+        "Strong research scientist with over 20 published articles with more than 528 citation, [click here](https://scholar.google.ca/citations?hl=en\u0026user=D5P5et4AAAAJ)"
       ],
       "title": "Publication"
     }
@@ -106,19 +106,19 @@
     },
     {
       "company": "Vaughan College",
-      "description": "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.",
+      "description": "\n - Planned and presented math lessons to facilitate students understanding in the college. \n - Prepared and distributed learning material such as notes, assignments, tests, and final examinations \n - Ensured that the classroom remains safe and conductive to learning \n - Graded assessments in a timely manner \n - Documented and reported on students' progress \n - Attended meetings with parents and staff",
       "duration": "2017-2021",
       "title": "College Instructor"
     },
     {
       "company": "Ryerson University",
-      "description": "Designed a Simulation of energy efficient equipment and Optimization of single house load management and energy generation.",
+      "description": "\n - Post-Doctoral Fellowship (PDF) at Electrical \u0026 Computer Department of Ryerson University \n - Designed a simulation of energy efficient equipment and optimization of single house load management and energy generation \n - Worked on the Gray Predictive Models for using in HVAC residential",
       "duration": "2015-2017",
-      "title": "Associate Research"
+      "title": "Research Associate"
     },
     {
       "company": "Isfahan University",
-      "description": "Expertised in all areas of applied mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance mathematical modeling, Stochastic calculus, Operational Research, Integral equations, Linear Algebra, Numerical integration and Numerical derivatives.",
+      "description": "\n - Faculty member of Isfahan University for more than 13 years \n - Developed curricula and delivered course material \n - Conducted research with over 20 published paper with more than 528 citation \n - Supervised and advised on dissertation in undergraduate and graduate students \n - Specialized in analyzing and synthesizing applied problems and algorithms \n - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science \n - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical derivatives",
       "duration": "2003-2015",
       "title": "Assistant Professor"
     }

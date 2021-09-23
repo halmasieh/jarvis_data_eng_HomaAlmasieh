@@ -46,11 +46,27 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 **Data Engineer, Jarvis (2021-present)**: Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.
 
-**College Instructor, Vaughan College (2017-2021)**: Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.
+**College Instructor, Vaughan College (2017-2021)**: 
+ - Planned and presented math lessons to facilitate students understanding in the college. 
+ - Prepared and distributed learning material such as notes, assignments, tests, and final examinations 
+ - Ensured that the classroom remains safe and conductive to learning 
+ - Graded assessments in a timely manner 
+ - Documented and reported on students' progress 
+ - Attended meetings with parents and staff
 
-**Associate Research, Ryerson University (2015-2017)**: Designed a Simulation of energy efficient equipment and Optimization of single house load management and energy generation.
+**Research Associate, Ryerson University (2015-2017)**: 
+ - Post-Doctoral Fellowship (PDF) at Electrical & Computer Department of Ryerson University 
+ - Designed a simulation of energy efficient equipment and optimization of single house load management and energy generation 
+ - Worked on the Gray Predictive Models for using in HVAC residential
 
-**Assistant Professor, Isfahan University (2003-2015)**: Expertised in all areas of applied mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance mathematical modeling, Stochastic calculus, Operational Research, Integral equations, Linear Algebra, Numerical integration and Numerical derivatives.
+**Assistant Professor, Isfahan University (2003-2015)**: 
+ - Faculty member of Isfahan University for more than 13 years 
+ - Developed curricula and delivered course material 
+ - Conducted research with over 20 published paper with more than 528 citation 
+ - Supervised and advised on dissertation in undergraduate and graduate students 
+ - Specialized in analyzing and synthesizing applied problems and algorithms 
+ - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science 
+ - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical derivatives
 
 
 ## Education
@@ -64,4 +80,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 ## Miscellaneous
 - Data Analytics- University of Toronto (2021)
 - List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)
-- Strong research scientist with over 20 published articles with more than 535 citation, [click here](https://scholar.google.ca/citations?hl=en&user=D5P5et4AAAAJ)
+- Strong research scientist with over 20 published articles with more than 528 citation, [click here](https://scholar.google.ca/citations?hl=en&user=D5P5et4AAAAJ)
