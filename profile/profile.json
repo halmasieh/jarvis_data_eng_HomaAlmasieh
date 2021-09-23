@@ -25,7 +25,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh",
   "highlighted_projects": [
     {
-      "description": "Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features and have utilized Tableau to visualize the outcomes and discuss the findings \n key Tech: Web Scaping, Pandas, SKLearn, Tableau",
+      "description": "Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features and have utilized Tableau to visualize the outcomes and discuss the findings. \n - key Tech: Web Scaping, Pandas, SKLearn, Tableau",
       "git_url": "https://github.com/halmasieh/Spotify_Analysis",
       "name": "Spotify Analysis"
     },
