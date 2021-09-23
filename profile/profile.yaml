@@ -108,21 +108,23 @@ professional_experience:
     Finance mathematical modeling, Stochastic calculus, Operational Research, Integral equations, Linear Algebra, Numerical integration and Numerical derivatives."
 
 #List of edcuation
-education: 
+education:
   - school_name: "Azad University"
     duration: "2005-2010"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
-    # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+    degree: "PhD of Applied Mathematics (Integral Equations)"
+    department: "Mathematics"
+    awards_achievements:
+  - school_name: "Yazd University"
+    duration: "2001-2003"
+    degree: "Master of Applied Mathematics (Optimal Control)"
+    department: "Mathematics"
+  # optional
+    awards_achievements:
+  - school_name: "Isfahan University"
+    duration: "1997-2001"
+    degree: "Bachelor of Applied Mathematics"
+    department: "Mathematics"
+    awards_achievements:
 
 #Optional section
 others:
@@ -130,12 +132,12 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
-    bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Data Analytics- University of Toronto (2021)"
+#  - title: "Awards"
+#    bullets:
+#      - "Winner"
+#  - title: "Activities/Hobbies"
+#    bullets:
+#      - "Basketball player"
+#      - "Competitive gaming"
+#      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"

@@ -54,17 +54,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 
 ## Education
-**Azad University (2005-2010)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**Azad University (2005-2010)**, PhD of Applied Mathematics (Integral Equations), Mathematics
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Yazd University (2001-2003)**, Master of Applied Mathematics (Optimal Control), Mathematics
+
+**Isfahan University (1997-2001)**, Bachelor of Applied Mathematics, Mathematics
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Data Analytics- University of Toronto (2021)
