@@ -1,6 +1,6 @@
 # Homa Almasieh . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+ I recently completed Data Analytics BootCamp from University of Toronto focused on gainnig technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning. In addition, I am a former university faculty member in the area of Applied Mathematics with a brilliant and valuable background in the field of teaching and scientific research.
 
 ## Skills
 
@@ -36,11 +36,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 ## Highlighted Projects
 **Spotify Analysis** [[GitHub](https://github.com/halmasieh/Spotify_Analysis)]: Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. Analyzed various physical features of a song as well as some peripheral features to identify a pattern within how a song garners a successful Popularity index. Created a machine learning model that can predict the popularity of a song based on these features and utilized Tableau to visualize the outcomes and discuss the findings.
- **key Tech**: Web Scaping, Pandas, SKLearn, Tableau
+ **Key Tech**: Web Scaping, Pandas, SKLearn, Tableau
 
 **Credit Risk Analysis** [[GitHub](https://github.com/halmasieh/Credit_Risk_Analysis)]: Used the credit card dataset from LendingClub, a peer-to-peer lending services company. Oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, evaluated the performance of these models to be used to predict credit risk. **Key Tech**: Jupyter Notebook and Scikit-Learn
 
-**Amazon_Vine_Analysis** [[GitHub](https://github.com/halmasieh/Amazon_Vine_Analysis)]:  Created an AWS RDS database with tables in pgAdmin. Picked a dataset from the Amazon Review datasets and extracted the dataset. Determined bias of vine reviews. **Key Tech**: PySpark, SQL, Cloud Service (AWS)
+**Amazon_Vine_Analysis** [[GitHub](https://github.com/halmasieh/Amazon_Vine_Analysis)]:  Created an AWS RDS database with tables in pgAdmin. Picked a dataset from the Amazon Review datasets and extracted it. Determined bias of vine reviews. **Key Tech**: PySpark, SQL, Cloud Service (AWS)
 
 
 ## Professional Experiences
