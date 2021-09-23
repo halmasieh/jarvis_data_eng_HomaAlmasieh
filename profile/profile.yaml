@@ -73,17 +73,18 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/halmasieh/Spotify_Analysis"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features and have utilized Tableau to visualize the outcomes and discuss the findings.\n
-    key Tech: Web Scaping, Pandas, SKLearn, Tableau"
+    description: "Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. Analyzed various physical features of a song as well as some peripheral features to identify a pattern within how a song garners a successful Popularity index. Created a machine learning model that can predict the popularity of a song based on these features and utilized Tableau to visualize the outcomes and discuss the findings.\n
+    **key Tech**: Web Scaping, Pandas, SKLearn, Tableau"
   - name: "Credit Risk Analysis"
     git_url: "https://github.com/halmasieh/Credit_Risk_Analysis"
-    description: "Used the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I applied oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, I evaluated the performance of these models to be used to predict credit risk."
-  - name: "Spotify Analysis"
+    description: "Used the credit card dataset from LendingClub, a peer-to-peer lending services company. Oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, evaluated the performance of these models to be used to predict credit risk.
+    **Key Tech**: Jupyter Notebook and Scikit-Learn"
+  - name: "Amazon_Vine_Analysis"
     #URL is optional
-    git_url: "https://github.com/halmasieh/Neural_Network_Charity_Analysis"
+    git_url: "https://github.com/halmasieh/Amazon_Vine_Analysis"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Processed the dataset in order to compile, train, and evaluate the neural network model, using Pandas and Scikit-Learn. Designed a binary classification model to analyze and classify the success of charitable donations, using TensorFlow."
-
+    description: " Created an AWS RDS database with tables in pgAdmin. Picked a dataset from the Amazon Review datasets and extracted the dataset. Determined bias of vine reviews.
+    **Key Tech**: PySpark, SQL, Cloud Service (AWS)"
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
