@@ -2,7 +2,7 @@
   "education": [
     {
       "awards_achievements": null,
-      "degree": "PhD of Applied Mathematics (Integral Equations)",
+      "degree": "Doctor of Philosophy of Applied Mathematics (Integral Equations)",
       "department": "Mathematics",
       "duration": "2005-2010",
       "school_name": "Azad University"
@@ -88,6 +88,12 @@
         "Data Analytics- University of Toronto (2021)"
       ],
       "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)"
+      ],
+      "title": "Publication"
     }
   ],
   "professional_experience": [

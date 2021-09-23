@@ -54,7 +54,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 
 ## Education
-**Azad University (2005-2010)**, PhD of Applied Mathematics (Integral Equations), Mathematics
+**Azad University (2005-2010)**, Doctor of Philosophy of Applied Mathematics (Integral Equations), Mathematics
 
 **Yazd University (2001-2003)**, Master of Applied Mathematics (Optimal Control), Mathematics
 
@@ -63,3 +63,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 ## Miscellaneous
 - Data Analytics- University of Toronto (2021)
+- List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)

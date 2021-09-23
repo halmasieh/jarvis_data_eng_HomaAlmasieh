@@ -111,7 +111,7 @@ professional_experience:
 education:
   - school_name: "Azad University"
     duration: "2005-2010"
-    degree: "PhD of Applied Mathematics (Integral Equations)"
+    degree: "Doctor of Philosophy of Applied Mathematics (Integral Equations)"
     department: "Mathematics"
     awards_achievements:
   - school_name: "Yazd University"
@@ -128,16 +128,11 @@ education:
 
 #Optional section
 others:
-    #category
+  #category
   - title: "Certificates"
-    #list of items
     bullets:
       - "Data Analytics- University of Toronto (2021)"
-#  - title: "Awards"
-#    bullets:
-#      - "Winner"
-#  - title: "Activities/Hobbies"
-#    bullets:
-#      - "Basketball player"
-#      - "Competitive gaming"
-#      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+  - title: "Publication"
+    bullets:
+      - "List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)"
+
