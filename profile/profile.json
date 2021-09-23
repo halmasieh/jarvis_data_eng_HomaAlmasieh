@@ -8,8 +8,8 @@
       ],
       "degree": "Bachelor of Applied Sciences",
       "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "duration": "2005-2010",
+      "school_name": "Azad University"
     },
     {
       "awards_achievements": null,
@@ -22,14 +22,19 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features.",
+      "git_url": "https://github.com/halmasieh/Spotify_Analysis",
+      "name": "Spotify Analysis"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Used the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I applied oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, I evaluated the performance of these models to be used to predict credit risk.",
+      "git_url": "https://github.com/halmasieh/Credit_Risk_Analysis",
+      "name": "Credit Risk Analysis"
+    },
+    {
+      "description": "Processed the dataset in order to compile, train, and evaluate the neural network model, using Pandas and Scikit-Learn. Designed a binary classification model to analyze and classify the success of charitable donations, using TensorFlow.",
+      "git_url": "https://github.com/halmasieh/Neural_Network_Charity_Analysis",
+      "name": "Spotify Analysis"
     }
   ],
   "jarvis_projects": [
@@ -99,15 +104,27 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
+      "description": "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.",
+      "duration": "2021-present",
+      "title": "Data Engineer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Vaughan College",
+      "description": "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.",
+      "duration": "2017-2021",
+      "title": "College Instructor"
+    },
+    {
+      "company": "Ryerson University",
+      "description": "Designed a Simulation of energy efficient equipment and Optimization of single house load management and energy generation.",
+      "duration": "2015-2017",
+      "title": "Associate Research"
+    },
+    {
+      "company": "Isfahan University",
+      "description": "Expertised in all areas of applied mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance mathematical modeling, Stochastic calculus, Operational Research, Integral equations, Linear Algebra, Numerical integration and Numerical derivatives.",
+      "duration": "2003-2015",
+      "title": "Assistant Professor"
     }
   ],
   "skills": {

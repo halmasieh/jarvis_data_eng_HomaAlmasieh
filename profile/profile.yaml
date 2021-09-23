@@ -73,15 +73,15 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/halmasieh/Spotify_Analysis"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features.
+    description: "Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features."
   - name: "Credit Risk Analysis"
     git_url: "https://github.com/halmasieh/Credit_Risk_Analysis"
-    description: Used the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I applied oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, I evaluated the performance of these models to be used to predict credit risk.
+    description: "Used the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I applied oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, I evaluated the performance of these models to be used to predict credit risk."
   - name: "Spotify Analysis"
     #URL is optional
     git_url: "https://github.com/halmasieh/Neural_Network_Charity_Analysis"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Processed the dataset in order to compile, train, and evaluate the neural network model, using Pandas and Scikit-Learn. Designed a binary classification model to analyze and classify the success of charitable donations, using TensorFlow.
+    description: "Processed the dataset in order to compile, train, and evaluate the neural network model, using Pandas and Scikit-Learn. Designed a binary classification model to analyze and classify the success of charitable donations, using TensorFlow."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -92,11 +92,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2021-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: ""
+    description: "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader."
   - title: "College Instructor"
     company: "Vaughan College"
     duration: "2017-2021"
-    description: ""
+    description: "Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader."
   - title: "Associate Research"
     company: "Ryerson University"
     duration: "2015-2017"
@@ -109,8 +109,8 @@ professional_experience:
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
+  - school_name: "Azad University"
+    duration: "2005-2010"
     degree: "Bachelor of Applied Sciences"
     department: "Electrical and Computer Engineering"
     # optional

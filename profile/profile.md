@@ -35,20 +35,26 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Spotify Analysis** [[GitHub](https://github.com/halmasieh/Spotify_Analysis)]: Colaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. By analyzing various physical features of a song as well as some peripheral features, we look to identify a pattern within how a song garners a successful Popularity index. We have created a machine learning model that can predict the popularity of a song based on these features.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Credit Risk Analysis** [[GitHub](https://github.com/halmasieh/Credit_Risk_Analysis)]: Used the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I applied oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, I evaluated the performance of these models to be used to predict credit risk.
+
+**Spotify Analysis** [[GitHub](https://github.com/halmasieh/Neural_Network_Charity_Analysis)]: Processed the dataset in order to compile, train, and evaluate the neural network model, using Pandas and Scikit-Learn. Designed a binary classification model to analyze and classify the success of charitable donations, using TensorFlow.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Engineer, Jarvis (2021-present)**: Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**College Instructor, Vaughan College (2017-2021)**: Worked on various data projects involving Linux, Bash, Docker, Postgres, Java, and Spring Boot. Followed the scrum agile methodology and used Git and Git Flow in every project. Assisted others in project-related issues, and held daily scrum meetings as a scrum leader.
+
+**Associate Research, Ryerson University (2015-2017)**: Designed a Simulation of energy efficient equipment and Optimization of single house load management and energy generation.
+
+**Assistant Professor, Isfahan University (2003-2015)**: Expertised in all areas of applied mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance mathematical modeling, Stochastic calculus, Operational Research, Integral equations, Linear Algebra, Numerical integration and Numerical derivatives.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
+**Azad University (2005-2010)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
 - Scholarship
 - Dean's List (2015, 2016): Ut enim ad minim veniam
 - GPA: 3.8/4.0
