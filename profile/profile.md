@@ -64,3 +64,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 ## Miscellaneous
 - Data Analytics- University of Toronto (2021)
 - List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)
+- Strong research scientist with over 20 published articles with more than 535 citation, [click here](https://scholar.google.ca/citations?hl=en&user=D5P5et4AAAAJ)
