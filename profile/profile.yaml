@@ -102,7 +102,7 @@ professional_experience:
     description: "\n
     - Implemented various data projects using tools and technologies such as Linux/Bash, RDBMS/SQL, Java, and Docker
     \n
-    - Collaborated in the develope team and followed the Scrum Agile methology by hosting daily meetings
+    - Collaborated in the develop team and followed the Scrum Agile methodology by hosting daily meetings
     \n
     - used Git and GitFlow in every project"
   - title: "College Instructor"
@@ -113,20 +113,20 @@ professional_experience:
     \n
     - Prepared and distributed learning materials such as notes, assignments, tests, and final examinations
     \n
-    - Ensured that the classroom remains safe and conductive to learning
+    - Ensured that the classroom remains safe and conducive to learning
     \n
     - Graded assessments in a timely manner
     \n
     - Documented and reported on students' progress
     \n
-    - Attended meetings with parents and staffs"
+    - Attended meetings with parents and staff"
   - title: "Research Associate"
     company: "Ryerson University"
     duration: "2015-2017"
     description: "\n
     - Post-Doctoral Fellowship (PDF) at Electrical & Computer Department of Ryerson University
     \n
-    - Designed a simulation of energy efficient equipment and optimization of single house load management and energy generation
+    - Designed a simulation of energy-efficient equipment and optimization of single house load management and energy generation
     \n
     - Worked on the Gray Predictive Models for using in HVAC residential"
   - title: "Assistant Professor"
@@ -137,7 +137,7 @@ professional_experience:
     \n
     - Developed curricula and delivered course materials
     \n
-    - Conducted research with over 20 published paper with more than 528 citation
+    - Researched with over 20 published papers with more than 528 citations
     \n
     - Supervised and advised on dissertation in undergraduate and graduate students
     \n
@@ -146,7 +146,7 @@ professional_experience:
     - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science
     \n
     - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs,
-    Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical Derivatives"
+    Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration, and Numerical Derivatives"
 
 #List of edcuation
 education:
@@ -175,6 +175,6 @@ others:
       - "Data Analytics- University of Toronto (2021)"
   - title: "Publication"
     bullets:
-      - "List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)"
-      - "Strong research scientist with over 20 published articles with more than 528 citation, [click here](https://scholar.google.ca/citations?hl=en&user=D5P5et4AAAAJ)"
+      - "A list of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)"
+      - "Strong research scientist with over 20 published articles with more than 528 citations, [click here](https://scholar.google.ca/citations?hl=en&user=D5P5et4AAAAJ)"
 

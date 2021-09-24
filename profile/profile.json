@@ -91,8 +91,8 @@
     },
     {
       "bullets": [
-        "List of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)",
-        "Strong research scientist with over 20 published articles with more than 528 citation, [click here](https://scholar.google.ca/citations?hl=en\u0026user=D5P5et4AAAAJ)"
+        "A list of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)",
+        "Strong research scientist with over 20 published articles with more than 528 citations, [click here](https://scholar.google.ca/citations?hl=en\u0026user=D5P5et4AAAAJ)"
       ],
       "title": "Publication"
     }
@@ -100,25 +100,25 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "\n - Implemented various data projects using tools and technologies such as Linux/Bash, RDBMS/SQL, Java, and Docker \n - Collaborated in the develope team and followed the Scrum Agile methology by hosting daily meetings \n - used Git and GitFlow in every project",
+      "description": "\n - Implemented various data projects using tools and technologies such as Linux/Bash, RDBMS/SQL, Java, and Docker \n - Collaborated in the develop team and followed the Scrum Agile methodology by hosting daily meetings \n - used Git and GitFlow in every project",
       "duration": "2021-present",
       "title": "Data Engineer"
     },
     {
       "company": "Vaughan College",
-      "description": "\n - Planned and presented math lessons to facilitate students understanding in the college. \n - Prepared and distributed learning materials such as notes, assignments, tests, and final examinations \n - Ensured that the classroom remains safe and conductive to learning \n - Graded assessments in a timely manner \n - Documented and reported on students' progress \n - Attended meetings with parents and staffs",
+      "description": "\n - Planned and presented math lessons to facilitate students understanding in the college. \n - Prepared and distributed learning materials such as notes, assignments, tests, and final examinations \n - Ensured that the classroom remains safe and conducive to learning \n - Graded assessments in a timely manner \n - Documented and reported on students' progress \n - Attended meetings with parents and staff",
       "duration": "2017-2021",
       "title": "College Instructor"
     },
     {
       "company": "Ryerson University",
-      "description": "\n - Post-Doctoral Fellowship (PDF) at Electrical \u0026 Computer Department of Ryerson University \n - Designed a simulation of energy efficient equipment and optimization of single house load management and energy generation \n - Worked on the Gray Predictive Models for using in HVAC residential",
+      "description": "\n - Post-Doctoral Fellowship (PDF) at Electrical \u0026 Computer Department of Ryerson University \n - Designed a simulation of energy-efficient equipment and optimization of single house load management and energy generation \n - Worked on the Gray Predictive Models for using in HVAC residential",
       "duration": "2015-2017",
       "title": "Research Associate"
     },
     {
       "company": "Isfahan University",
-      "description": "\n - Faculty member of Isfahan University for more than 13 years \n - Developed curricula and delivered course materials \n - Conducted research with over 20 published paper with more than 528 citation \n - Supervised and advised on dissertation in undergraduate and graduate students \n - Specialized in analyzing and synthesizing applied problems and algorithms \n - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science \n - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration and Numerical Derivatives",
+      "description": "\n - Faculty member of Isfahan University for more than 13 years \n - Developed curricula and delivered course materials \n - Researched with over 20 published papers with more than 528 citations \n - Supervised and advised on dissertation in undergraduate and graduate students \n - Specialized in analyzing and synthesizing applied problems and algorithms \n - Journal Reviewer of International Journals in Mathematics, Engineering, Economic and Science \n - Expertised in all areas of Applied Mathematics including but not limited to Numerical Analysis,  ODEs, PDEs, Finance Mathematical Modeling, Stochastic Calculus, Operational Research, Integral Equations, Linear Algebra, Numerical Integration, and Numerical Derivatives",
       "duration": "2003-2015",
       "title": "Assistant Professor"
     }
