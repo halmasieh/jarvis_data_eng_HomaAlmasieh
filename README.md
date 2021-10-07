@@ -15,23 +15,13 @@
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/linux_sql)]: Implemented a Monitoring Agent on a node/server within the linux cluster to collect the hardware specifications and monitor the cluster node resource usage in real time. This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information submitted through bash scripts installed on each node.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/linux_sql)]: Implemented a Monitoring Agent on a node/server that collects the hardware specifications and monitors the cluster node resource usage in real-time within the Linux cluster running on CentOS 7. The collected data include the host's CPU number, total memory, memory free, disk I/O, etc which are stored in a RDBMS database. This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information every minute using bash scripts and crontab installed on each node.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/core_java)]:
       
-  - Twitter App: Built an application that would use Twitter's REST APIs to provide services to the end-user, such as being able to add, show, or delete Tweets. Java was used to implement all the components, and Springboot was used to managing all of the dependencies. JUnit and Mockito were used to test the application, and Maven was used to package it. Deployment was done using Docker.
+  - Twitter CRUD App: Built an application that would use Twitter's REST APIs to provide services to the end-user, such as being able to add, show, or delete Tweets. Java was used to implement all the components, and Springboot was used to managing all of the dependencies. JUnit and Mockito were used to test the application, and Maven was used to package it. Deployment was done using Docker.
   - JDBC App: Created an application that would access a database and perform queries using JDBC. Java and JDBC APIs were used to create the DAO necessary to perform operations with a Postgres database running on Docker, and to segregate these procedures from business side logic.
   - Grep App: Constructed a replica of the grep command-line utility. Used Java along with Lambda and Stream APIs as part of the implementation, and used Maven to package the application, which was later deployed on Docker Hub using Docker.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
