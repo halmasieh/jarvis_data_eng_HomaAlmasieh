@@ -42,13 +42,13 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Implemented a Monitoring Agent on a node/server within the linux cluster to collect the hardware specifications and monitor the cluster node resource usage in real time. This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information submitted through bash scripts installed on each node.",
+      "description": "Implemented a Monitoring Agent on a node/server that collects the hardware specifications and monitor the cluster node resource usage in real time within the linux cluster running on CentOS 7. The collected data include the host's CPU number, total memory, memory free, disk I/O, etc are stored in a RDBMS database. This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information every minute bash scripts and crontab installed on each node.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
       "description": [
-        "Twitter App: Built an application that would use Twitter's REST APIs to provide services to the end-user, such as being able to add, show, or delete Tweets. Java was used to implement all the components, and Springboot was used to managing all of the dependencies. JUnit and Mockito were used to test the application, and Maven was used to package it. Deployment was done using Docker.",
+        "Twitter CRUD App: Built an application that would use Twitter's REST APIs to provide services to the end-user, such as being able to add, show, or delete Tweets. Java was used to implement all the components, and Springboot was used to managing all of the dependencies. JUnit and Mockito were used to test the application, and Maven was used to package it. Deployment was done using Docker.",
         "JDBC App: Created an application that would access a database and perform queries using JDBC. Java and JDBC APIs were used to create the DAO necessary to perform operations with a Postgres database running on Docker, and to segregate these procedures from business side logic.",
         "Grep App: Constructed a replica of the grep command-line utility. Used Java along with Lambda and Stream APIs as part of the implementation, and used Maven to package the application, which was later deployed on Docker Hub using Docker."
       ],
