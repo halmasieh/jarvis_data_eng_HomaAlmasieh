@@ -48,9 +48,9 @@ jarvis_projects:
     #keywords: CentOS, Bash/Shell, Docker, RDBMS/SQL/Postgresql, Crontab, Data Analytics
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Implemented a Monitoring Agent on a node/server that collects the hardware specifications and monitor the cluster node resource usage in real time
-    within the linux cluster running on CentOS 7. The collected data include the host's CPU number, total memory, memory free, disk I/O, etc are stored in a RDBMS database.
-    This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information every minute bash scripts and crontab installed on each node."
+    description: "Implemented a Monitoring Agent on a node/server that collects the hardware specifications and monitors the cluster node resource usage in real-time
+    within the Linux cluster running on CentOS 7. The collected data include the host's CPU number, total memory, memory free, disk I/O, etc which are stored in a RDBMS database.
+    This Monitoring Agent contains a PostgreSQL server installed within a Docker container that collects information every minute using bash scripts and crontab installed on each node."
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
