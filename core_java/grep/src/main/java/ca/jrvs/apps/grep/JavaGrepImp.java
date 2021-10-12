@@ -1,5 +1,6 @@
 package ca.jrvs.apps.grep;
 
+import com.sun.org.slf4j.internal.LoggerFactory;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,10 +10,11 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
+// import java.util.logging.Logger;
 import java.util.regex.Pattern;
-import org.apache.log4j.BasicConfigurator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
+import org.apache.log4j.Priority;
+
 
 public class JavaGrepImp implements JavaGrep{
   final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
@@ -106,7 +108,6 @@ public class JavaGrepImp implements JavaGrep{
     bw.close();
   }
 
-  // Az inja
   @Override
   public String getRegex() {
     return regex;
