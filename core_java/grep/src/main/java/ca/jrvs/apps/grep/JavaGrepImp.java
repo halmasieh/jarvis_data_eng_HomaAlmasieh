@@ -1,6 +1,5 @@
 package ca.jrvs.apps.grep;
 
-import com.sun.org.slf4j.internal.LoggerFactory;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,11 +8,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.logging.Logger;
 import java.util.regex.Pattern;
+import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class JavaGrepImp implements JavaGrep{
   final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
@@ -44,10 +43,10 @@ public class JavaGrepImp implements JavaGrep{
 
   @Override
   public void process() throws IOException {
-    List<String> matchedLines = new LinkedList<>();
+    List<String> matchedLines = new ArrayList<>();
     for (File file : listFiles(getRootPath())) {
       for (String line : readLines(file)) {
-        if (containsPattern(line)
+        if (containsPattern(line))
         matchedLines.add(line);
       }
     }
@@ -65,7 +64,7 @@ public class JavaGrepImp implements JavaGrep{
         if (f.isFile()) {
           files.add(f);
         } else if (f.isDirectory()){
-          files.addAll(listFiles(f.getAbsolutePath());
+          files.addAll(listFiles(f.getAbsolutePath()));
         }
       }
     }
