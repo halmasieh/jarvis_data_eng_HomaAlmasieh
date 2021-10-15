@@ -50,5 +50,4 @@ public class LambdaStreamExcImpTest {
     lse.flatNestedInt(strList).forEach(num -> System.out.println(num));
 
   }
-
 }
