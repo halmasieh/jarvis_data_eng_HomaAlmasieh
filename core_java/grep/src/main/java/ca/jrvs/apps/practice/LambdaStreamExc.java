@@ -44,7 +44,7 @@ public interface LambdaStreamExc {
    * @param arr
    * @return
    */
-  IntStream createInStream(int[] arr);
+  IntStream createIntStream(int[] arr);
 
 
   /**
@@ -56,6 +56,21 @@ public interface LambdaStreamExc {
    */
   <E> List<E> toList(Stream<E> stream);
 
+  /**
+   *  Convert an intStream to list
+   *
+   * @param intStream
+   * @return
+   */
+  List<Integer> toList(IntStream intStream);
+
+
+  /**
+   * Create an IntStream range from start to end inclusive
+   * @param start
+   * @param end
+   * @return
+   */
   IntStream createIntStream(int start, int end);
 
   /**
