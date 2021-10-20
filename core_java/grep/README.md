@@ -68,5 +68,5 @@ verified by comparing the output file and expected results.
 
 # Improvement
 - Reconfigure the JVM to allocate more maximum memory (via `-Xmx30m `or similar)
-- Use a streaming API that does not load all the XML into the memory at once.
+- Use a stream API that does not load all the XML into the memory at once.
 - Determine the source file and the number of each matched lines in the output file.
