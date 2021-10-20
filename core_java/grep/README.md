@@ -61,13 +61,12 @@ as the variables of the program and the results were
 verified by comparing the output file and expected results.
 
 # Deployment
-- Build an `uber/fat jar` file includes both my classes and dependency classes by adding the Shade Plugin to the `pom.xml`.
-- Execute `mvn clean package` to package my  java app as a `fat Jar`.
-- Build an image by reading instructions from the Dockerfile using Docker and execute ` docker build -t almasieh1358/grep . `
+- Build an `uber/fat jar` file includes both program classes and dependency classes by adding the Shade Plugin to the `pom.xml`.
+- Execute `mvn clean package` to package the java app as a `fat Jar`.
+- Build an image by reading instructions from the Dockerfile using ` docker build -t almasieh1358/grep . `
 - Upload the image to Docker Hub using `docker push almasieh1358/grep`.
 
 # Improvement
-- Specify source file of each matched lines in the output file
 - Reconfigure the JVM to allocate more maximum memory (via `-Xmx30m `or similar)
 - Use a streaming API that does not load all the XML into the memory at once.
 - Determine the source file and the number of each matched lines in the output file.
