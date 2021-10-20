@@ -1,7 +1,13 @@
 # Introduction
-The JavaGrep application is designed for pattern matching purposes in a file/dictionary.
-The app takes three arguments and looks for a text pattern recursively in a dictionary and the lines that contain the text expressions are written and stored in a new file.
-This application is implemented using Java 8, Maven, Stream APIs, Regex and Lambda expressions and is tested using the main method and JUnit testing. Lastly, the application is dockerized and uploaded to Docker Hub.
+The JavaGrep application is designed for pattern matching purposes in a dictionary.
+The app takes three arguments and looks for a text pattern recursively in a 
+dictionary and the lines that contain the text expressions 
+are written and stored in a new file. This application is tested using 
+the main method and JUnit testing. Lastly, the application is 
+dockerized and uploaded to Docker Hub.
+
+### Technologies Used:
+Java 8, Maven, Stream APIs, Regex and Lambda expressions, Git, Docker
 
 # Quick Start
 
