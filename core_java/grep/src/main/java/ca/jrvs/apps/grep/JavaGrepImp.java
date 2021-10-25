@@ -12,9 +12,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
-//import java.util.logging.Logger;
 import java.util.regex.Pattern;
-//import org.apache.log4j.BasicConfigurator;
 
 
 public class JavaGrepImp implements JavaGrep{
