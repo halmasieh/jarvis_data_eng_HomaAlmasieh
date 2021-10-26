@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Homa Almasieh . Jarvis Consulting
 
 I recently completed Data Analytics BootCamp from the University of Toronto focused on gaining technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning. I worked with various datasets during the BootCamp program and according to the content of the projects, I used various tools to analyze the data, design the model and visualize the finding through Tableau and dashboards. In addition, I am a former Assistant Professor of University in the area of Applied Mathematics with a brilliant and valuable background in the field of teaching and scientific research. With this extensive background of Mathematics and Data, I started  my training program at Jarvis by developing various projects and this mentorship helped me to gain skills in increasing code efficiency, debugging, and gaining comprehensive knowledge in Linux/Bash, Git, Java, Docker, RDBMS and Springboot. I am a self-initiated and avid learner with high attention to detail, critical thinking and logical problem-solving. My adaptability allows me to work in many different environments, in addition to speaking with people from various backgrounds. I am looking forward to speaking about my academic and professional background for developing positions mainly in the data analytics field.
@@ -76,10 +75,3 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 - Data Analytics- University of Toronto (2021)
 - A list of my publications can be accessed through [this link](https://github.com/halmasieh/Publications)
 - Strong research scientist with over 20 published articles with more than 528 citations, [click here](https://scholar.google.ca/citations?hl=en&user=D5P5et4AAAAJ)
-=======
-# Core Java Apps
-
-1. [Java Grep App](./grep)
-2. [JDBC App](./jdbc)
-3. [Twitter CLI App](./twitter)
->>>>>>> 7a4bff9583ac8e7609ab202ca046f807a83d6e88
