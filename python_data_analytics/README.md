@@ -9,7 +9,9 @@ from 01/12/2009 to 09/12/2011. The provided data is stored in a PostgreSQL datab
 container, and then it is connected to the Jupyter Notebook to answer all the business questions. We created plots 
 to visualize the answers. 
 ## Technologies Used: 
-Jupyter Notebook, PostgresSQL, Git, Docker and Linux(CentOS7)
+Data Sources: online_retail_II.csv, and retail.sql
+
+Software: Jupyter Notebook, PostgresSQL, Git, Docker and Linux(CentOS7)
 
 Library: pandas, numpy, matplotlib, sqlalchemy, scipy, seaborn, and datetime
 # Implementaion
