@@ -17,7 +17,7 @@ Library: pandas, numpy, matplotlib, sqlalchemy, scipy, seaborn, and datetime
 
 ## Project Architecture
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture-Data_Analytics.PNG" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" alt=""/>
 </p>
 
 
