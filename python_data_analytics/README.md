@@ -19,8 +19,13 @@ Library: pandas, numpy, matplotlib, sqlalchemy, scipy, seaborn, and datetime
 
 ## Project Architecture
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" width="400" height="400" alt=""/>
 </p>
+
+The LGS IT team provides a high-level system design to store the transactional data which manages by their own Azure system and
+the Jarvis team does not have the access permission to use the Azure environment. Instead, they provided a dumped transaction dataset
+between 01/12/2009 and 09/12/2011 into a SQL file which is accessible to the Jarvis team. Then the data is loaded to a 
+PostgreSQL database to find the solution for business questions using data analysis tools.  
 
 
 ## Data Analytics and Wrangling
