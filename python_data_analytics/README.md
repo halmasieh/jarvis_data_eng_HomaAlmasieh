@@ -81,8 +81,10 @@ Recency, Frequency, and Monetary.
 </p>
 
 As you observe in the above graph, the customers in the category of Champion and loyal customers are extremely loyal and responsible for 
-the large portion of the company revenue, therefore, they are highly valuable, and they should be taken into consideration to keep them engaged by providing them more rewards. 
-In addition, the company needs to spend time for engaging the Can't lose and New customers categories. 
+the large portion of the company revenue. Therefore, they are highly valuable, and they should be taken into consideration to keep them engaged by providing them more rewards. 
+In addition, the company needs to spend time for engaging the Can't Lose and New Customers categories. 
 
 # Improvements
-- List three improvements that you want to do if you got more time
+- Add more features to the dataset which affect the customer segmentation such as seasonal or occasional choices
+- Create machine learning models to predict the behavior of the customers, sales growth and the company's revenue in the future
+- Use the most updated data and larger samples to perform more accurate analysis
