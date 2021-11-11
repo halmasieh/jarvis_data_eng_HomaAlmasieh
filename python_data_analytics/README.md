@@ -32,20 +32,21 @@ PostgreSQL database to find the solution for business questions using data analy
 The code for data analysis is accessible [here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb)
 In this analysis, we dive into the business solutions of LGT to help them to increase their revenue. 
 In this regard, the analysis can be performed as the following steps:
-- Create distribution for the first 85 quantiles of the invoice amount data and plot that for finding the outliers
+- Create distribution for the first 85 quantiles of the invoice amount data and plot that for finding the outliers as follows:
 
 <p align="center">
   <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/invoice_amount.PNG" width="650" height="300" alt=""/>
 </p>
 
 - Plot monthly placed versus the canceled orders
+
 We can observe from the bar graph that the highest placement orders are occurred in November 2011 
 and 2010, respectively. This could be a sign of a trend and if we would have available data for the 
 following years, it is quite predictable. Similarly, 
 the highest rate of cancelled orders has occurred in the two last months of the year.
 
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/placement_vs_canceled.PNG" width="650" height="300" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/placement_vs_canceled.PNG" width="700" height="300" alt=""/>
 </p>
 
 - Determine the monthly sales to get the rate of growth
