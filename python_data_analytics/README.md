@@ -19,7 +19,7 @@ Library: pandas, numpy, matplotlib, sqlalchemy, scipy, seaborn, and datetime
 
 ## Project Architecture
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" width="650" height="400" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" width="750" height="500" alt=""/>
 </p>
 
 The LGS IT team provides a high-level system design to store the transactional data which manages by their own Azure system and
