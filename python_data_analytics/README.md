@@ -35,7 +35,7 @@ In this regard, the analysis can be performed as the following steps:
 - Create distribution for the first 85 quantiles of the invoice amount data and plot that for finding the outliers
 
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/invoice_amount.PNG" width="650" height="400" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/invoice_amount.PNG" width="650" height="300" alt=""/>
 </p>
 
 - Plot monthly placed versus the canceled orders
@@ -44,66 +44,38 @@ and 2010, respectively. This could be a sign of a trend and if we would have ava
 following years, it is quite predictable. Similarly, 
 the highest rate of cancelled orders has occurred in the two last months of the year.
 
-
-
-
-![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/placement_vs_canceled.PNG)
-
-
-
-
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/placement_vs_canceled.PNG" width="650" height="300" alt=""/>
+</p>
 
 - Determine the monthly sales to get the rate of growth
 As it is shown in the following graph, sales growth begins in late summer, July and August, and continues to reach its maximum value in November.
 Then it will experience a downward trend by the end of the year.
 
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/monthly_growth.PNG" width="650" height="300" alt=""/>
+</p>
 
-
-
-
-
-![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/monthly_growth.PNG)
-
-
-
-
-
-
-![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/monthly_growth.PNG)
-
-
-
-
-
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/monthly_growth.PNG" width="650" height="300" alt=""/>
+</p>
 
 - Create a merged dataset for active users (new and  existing users), and plot a bar chart to compare them for each month
 As it is shown in the following graph,  the number of active users has the same trend as monthly sales and the number 
 of new users added to the customers, there is no significant difference in various months. LGS experiences the highest and 
 lowest number of new users in December 2009 and December 2011, respectively. 
 
-
-
-
-
-![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/new_users_existing.PNG)
-
-
-
-
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/new_users_existing.PNG" width="650" height="300" alt=""/>
+</p>
 
 - Find RFM for analyzing customer value and preparing customer segmentation which has a direct and close relation 
 with increasing revenue. This strategy allows the data analyst to divide the customers into different groups depending on 
 Recency, Frequency, and Monetary. 
 
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/customer_per_segment.PNG" width="650" height="300" alt=""/>
+</p>
 
-
-
-
-![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/customer_per_segment.PNG)
-
-
-
-
- 
 # Improvements
 - List three improvements that you want to do if you got more time
