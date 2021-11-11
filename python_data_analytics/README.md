@@ -19,7 +19,7 @@ Library: pandas, numpy, matplotlib, sqlalchemy, scipy, seaborn, and datetime
 
 ## Project Architecture
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" width="400" height="400" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" width="650" height="400" alt=""/>
 </p>
 
 The LGS IT team provides a high-level system design to store the transactional data which manages by their own Azure system and
@@ -29,20 +29,80 @@ PostgreSQL database to find the solution for business questions using data analy
 
 
 ## Data Analytics and Wrangling
-" Big Data " is a popular buzzword in the data industry today. But what does the term mean, and why is it important in the broader context of data science. In this analysis, we dig into the industry definition of "big data". We explore big data ecosystem including Spark which improves the process for handling big data versus Hadoop. After diving into some of the technologies, used with big data, we perform ETL on a dataset from Amazon Web Service (AWS). Cloud service let us store large amounts of data at remote locations rather than locally, on top of many other services. This allows for more scalability and performance.
-
-This analysis can be summarized in the following steps:
-
-Use PySpark to perform the ETL process to extract the dataset
-Transform the data
-Connect to an AWS RDS instance
-Load the transformed data into pgAdmin
-Use PySpark to determine if there is any bias toward favorable reviews from Vine members in the dataset
-Write a summary of the analysis
+The code for data analysis is accessible [here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb)
+In this analysis, we dive into the business solutions of LGT to help them to increase their revenue. 
+In this regard, the analysis can be performed as the following steps:
+- Create distribution for the first 85 quantiles of the invoice amount data and plot that for finding the outliers
 
 
-ate a link that points to your Jupyter notebook (use the relative path `./retail_data_analytics_wrangling.ipynb`)
-- Discuss how would you use the data to help LGS to increase their revenue (e.g. design a new marketing strategy with data you provided)
 
+
+![here]()
+
+
+
+
+
+
+- Plot monthly placed versus the canceled orders
+We can observe from the bar graph that the highest placement orders are occurred in November 2011 
+and 2010, respectively. This could be a sign of a trend and if we would have available data for the 
+following years, it is quite predictable. Similarly, 
+the highest rate of cancelled orders has occurred in the two last months of the year.
+
+
+
+
+![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/placement_vs_canceled.PNG)
+
+
+
+
+
+- Determine the monthly sales to get the rate of growth
+As it is shown in the following graph, sales growth begins in late summer, July and August, and continues to reach its maximum value in November.
+Then it will experience a downward trend by the end of the year.
+
+
+
+
+
+
+![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/monthly_growth.PNG)
+
+
+
+
+
+
+![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/monthly_growth.PNG)
+
+
+
+
+
+
+- Create a merged dataset for active users (new and  existing users), and plot a bar chart to compare them for each month
+As it is shown in the following graph,  the number of active users has the same trend as monthly sales and the number 
+of new users added to the customers, there is no significant difference in various months. LGS experiences the highest and 
+lowest number of new users in December 2009 and December 2011, respectively. 
+
+
+
+
+
+![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/new_users_existing.PNG)
+
+
+
+
+
+- Find RFM for analyzing customer value and preparing customer segmentation which has a direct and close relation 
+with increasing revenue. This strategy allows the data analyst to divide the customers into different groups depending on 
+Recency, Frequency, and Monetary. 
+
+
+
+ 
 # Improvements
 - List three improvements that you want to do if you got more time
