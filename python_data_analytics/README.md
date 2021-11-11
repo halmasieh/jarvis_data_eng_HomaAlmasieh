@@ -29,7 +29,8 @@ PostgreSQL database to find the solution for business questions using data analy
 
 
 ## Data Analytics and Wrangling
-The code for data analysis is accessible [here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb)
+The code for data analysis is accessible [here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb).
+
 In this analysis, we dive into the business solutions of LGT to help them to increase their revenue. 
 In this regard, the analysis can be performed as the following steps:
 - Create distribution for the first 85 quantiles of the invoice amount data and plot that for finding the outliers as follows:
@@ -40,8 +41,7 @@ In this regard, the analysis can be performed as the following steps:
 
 - Plot monthly placed versus the canceled orders
 
-We can observe from the bar graph that the highest placement order is occurred in November 2011 
-and 2010, respectively. This could be a sign of a trend and if we would have available data for the 
+We can observe from the bar graph that the highest placement order is occurred in November 2011 and the same behaviour in November 2010. This could be a sign of a trend and if we would have available data for the 
 following years, it is quite predictable. Similarly, 
 the highest rate of cancelled orders has occurred in the two last months of the year.
 
@@ -63,8 +63,9 @@ Then it will experience a downward trend by the end of the year.
 </p>
 
 - Create a merged dataset for active users (new and  existing users), and plot a bar chart to compare them for each month
-As it is shown in the following graph,  the number of active users has the same trend as monthly sales and the number 
-of new users added to the customers, there is no significant difference in various months. LGS experiences the highest and 
+
+As it is shown in the following graph,  the number of active users has the same trend as monthly sales and for the number 
+of new users that added to the existing customers, there is no significant difference in various months. LGS experiences the highest and 
 lowest number of new users in December 2009 and December 2011, respectively. 
 
 <p align="center">
