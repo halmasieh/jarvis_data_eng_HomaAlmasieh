@@ -56,7 +56,7 @@
       "name": "Core Java Apps"
     },
     {
-      "description": "Performed data analysis for transaction data reported from LGS to help the marketing team to answer the business questions in order to increase the company's revenue using RFM report. The analyses were conducted using a Jupyter notebook, and Python was used along with libraries such as pandas, matplotlib, numPy, scipy, seaborn and SQLAlchemy. Docker was used to run the Postgres container, which is the company's data warehouse.",
+      "description": "Performed data analysis for transaction data reported from LGS to help the marketing team to answer the business questions in order to increase the company's revenue using RFM report. The analysis were conducted using a Jupyter notebook, and Python was used along with libraries such as pandas, matplotlib, numPy, scipy, seaborn and SQLAlchemy. Docker was used to run the Postgres container, which is the company's data warehouse.",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
     }

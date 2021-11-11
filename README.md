@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
   - JDBC App: Created an application that would access a database and perform queries using JDBC. Java and JDBC APIs were used to create the DAO necessary to perform operations with a Postgres database running on Docker, and to segregate these procedures from business side logic.
   - Grep App: Constructed a replica of the grep command-line utility. Used Java along with Lambda and Stream APIs as part of the implementation, and used Maven to package the application, which was later deployed on Docker Hub using Docker.
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_anlytics)]: Performed data analysis for transaction data reported from LGS to help the marketing team to answer the business questions in order to increase the company's revenue using RFM report. The analyses were conducted using a Jupyter notebook, and Python was used along with libraries such as pandas, matplotlib, numPy, scipy, seaborn and SQLAlchemy. Docker was used to run the Postgres container, which is the company's data warehouse.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_anlytics)]: Performed data analysis for transaction data reported from LGS to help the marketing team to answer the business questions in order to increase the company's revenue using RFM report. The analysis were conducted using a Jupyter notebook, and Python was used along with libraries such as pandas, matplotlib, numPy, scipy, seaborn and SQLAlchemy. Docker was used to run the Postgres container, which is the company's data warehouse.
 
 
 ## Highlighted Projects
