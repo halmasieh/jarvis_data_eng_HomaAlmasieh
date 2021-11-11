@@ -34,15 +34,9 @@ In this analysis, we dive into the business solutions of LGT to help them to inc
 In this regard, the analysis can be performed as the following steps:
 - Create distribution for the first 85 quantiles of the invoice amount data and plot that for finding the outliers
 
-
-
-
-![here]()
-
-
-
-
-
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/invoice_amount.PNG" width="650" height="400" alt=""/>
+</p>
 
 - Plot monthly placed versus the canceled orders
 We can observe from the bar graph that the highest placement orders are occurred in November 2011 
@@ -100,6 +94,13 @@ lowest number of new users in December 2009 and December 2011, respectively.
 - Find RFM for analyzing customer value and preparing customer segmentation which has a direct and close relation 
 with increasing revenue. This strategy allows the data analyst to divide the customers into different groups depending on 
 Recency, Frequency, and Monetary. 
+
+
+
+
+
+![here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/customer_per_segment.PNG)
+
 
 
 
