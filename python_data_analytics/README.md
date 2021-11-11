@@ -66,7 +66,7 @@ Then it will experience a downward trend by the end of the year.
 
 As it is shown in the following graph,  the number of active users has the same trend as monthly sales and for the number 
 of new users that added to the existing customers, there is no significant difference in various months. LGS experiences the highest and 
-lowest number of new users in December 2009 and December 2011, respectively. 
+lowest number of new users in December 2009 and 2011, respectively. 
 
 <p align="center">
   <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/new_users_existing.PNG" width="650" height="300" alt=""/>
@@ -79,6 +79,10 @@ Recency, Frequency, and Monetary.
 <p align="center">
   <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/python_data_wrangling/data/customer_per_segment.PNG" width="650" height="300" alt=""/>
 </p>
+
+As you observe in the above graph, the customers in the category of Champion and loyal customers are extremely loyal and responsible for 
+the large portion of the company revenue, therefore, they are highly valuable, and they should be taken into consideration to keep them engaged by providing them more rewards. 
+In addition, the company needs to spend time for engaging the Can't lose and New customers categories. 
 
 # Improvements
 - List three improvements that you want to do if you got more time
