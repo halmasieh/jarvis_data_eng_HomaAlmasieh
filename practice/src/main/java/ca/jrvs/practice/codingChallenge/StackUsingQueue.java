@@ -39,17 +39,20 @@ public class StackUsingQueue {
         queue1.add(queue2.remove());
     }
   }
-  public int pop(){
-    if(queue1.size()==0) {
+
+  public int pop() {
+    if (queue1.size() == 0) {
       throw new QueueEmptyException("Queue is empty!");
     }
     return queue1.remove();
   }
+
   /**
    * Exception to indicate that Queue is empty.
    */
 
   class QueueEmptyException extends RuntimeException {
+
     private static final long serialVersionUID = 1L;
 
     public QueueEmptyException() {
@@ -62,4 +65,3 @@ public class StackUsingQueue {
   }
 
 }
-
