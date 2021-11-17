@@ -1,8 +1,8 @@
 # Introduction
-A UK-based online store called London Gift Shop (LGS) sells gift-ware and most of the companiy's customers are
+A UK-based online store called London Gift Shop (LGS) sells gift-ware and most of the company's customers are
 wholesales. This company has been operating online for about 10 years.
 The owner's concern is that their business has not grown much in recent years. In this regard, the LGS marketing team
-is looking for solutions that help economic prosperity bu using new technologies and better understanding of customer needs.
+is looking for solutions that help economic prosperity by using new technologies and better understanding of customer needs.
 The Jarvis consulting data engineering team went to their aid for delivering a proof of concept (PoC) project.
 It helps the LGS marketing by analyzing customer shopping behaviour. We used the transaction dataset in a csv file 
 from 01/12/2009 to 09/12/2011. The provided data is stored in a PostgreSQL database which is provisioned using a docker 
