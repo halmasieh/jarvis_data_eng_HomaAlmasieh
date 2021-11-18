@@ -27,19 +27,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasi
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_anlytics)]: Performed data analysis for transaction data reported from LGS to help the marketing team to answer the business questions in order to increase the company's revenue using RFM report. The analysis were conducted using a Jupyter notebook, and Python was used along with libraries such as pandas, matplotlib, numPy, scipy, seaborn and SQLAlchemy. Docker was used to run the Postgres container, which is the company's data warehouse.
 
-## Highlighted Projects
-**Spotify Analysis** [[GitHub](https://github.com/halmasieh/Spotify_Analysis)]: Collaborated in a team of five to determine what features impact the Popularity index of any given song on Spotify using Python. Analyzed various physical features of a song as well as some peripheral features to identify a pattern within how a song garners a successful Popularity index. Created a machine learning model that can predict the popularity of a song based on these features and utilized Tableau to visualize the outcomes and discuss the findings.
-**Key Tech**: Web Scaping, Pandas, SKLearn, Tableau
-
-**Credit Risk Analysis** [[GitHub](https://github.com/halmasieh/Credit_Risk_Analysis)]: Used the credit card dataset from LendingClub, a peer-to-peer lending services company. Oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Compared two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier that reduce bias. Lastly, evaluated the performance of these models to be used to predict credit risk. **Key Tech**: Jupyter Notebook and Scikit-Learn
-
-
-**Amazon_Vine_Analysis** [[GitHub](https://github.com/halmasieh/Amazon_Vine_Analysis)]: Created an AWS RDS database with tables in pgAdmin. Picked a dataset from the Amazon Review datasets and extracted it. Determined bias of vine reviews. **Key Tech**: PySpark, SQL, Cloud Service (AWS)
-
-- Twitter CRUD App: Built an application that would use Twitter's REST APIs to provide services to the end-user, such as being able to add, show, or delete Tweets. Java was used to implement all the components, and Springboot was used to managing all of the dependencies. JUnit and Mockito were used to test the application, and Maven was used to package it. Deployment was done using Docker.
-- JDBC App: Created an application that would access a database and perform queries using JDBC. Java and JDBC APIs were used to create the DAO necessary to perform operations with a Postgres database running on Docker, and to segregate these procedures from business side logic.
-- Grep App: Constructed a replica of the grep command-line utility. Used Java along with Lambda and Stream APIs as part of the implementation, and used Maven to package the application, which was later deployed on Docker Hub using Docker.
-      
 
 ## Highlighted Projects
 **Spotify Analysis** [[GitHub](https://github.com/halmasieh/Spotify_Analysis)]: Collaborated in a team 
