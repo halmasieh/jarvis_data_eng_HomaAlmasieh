@@ -1,2 +1,35 @@
 # Hadoop Project
-This project is under development. Since this project follows the GitFlow, the final work will be merged to the master branch after Team Code Team.
+Table of contents
+* [Introduction](#Introduction)
+* [Technologies Used](#Technologies Used)
+* [Hadoop Cluster](#Hadoop Cluster)
+* [Hive Project](#Hive Project)
+* [Improvements](#Improvements)
+
+# Introduction
+The Hadoop project is processed for the purpose of data analytics on big data. 
+We evaluated core Hadoop components, including MapReduce, HDFS, and YARN. In this regard, three node 
+Hadoop clusters are provisioned with GDP DataProc service, containing one master node and two worker nodes.
+The data is stored in Hive tables and analyzed using HiveQl queries and Zeppelin Notebook . 
+However, HQL queries were optimized using Hive partitions and Columnar file optimizations to solve 
+the business problems. The data is tested using table views and queries.
+
+## Technologies Used:
+Data Sources: Google Public Data (hosted on Google BigQuery), [worldbank_wdi](https://www.notion.so/jarvisdev/Setup-Hadoop-Cluster-04de4b26e5b1454fa2dcaf5f5c475d99#74dbd6c579334e78a7153860beb3d470)
+Software: GCP DataProc, HiveQl, Zeppelin notebook, and  Git
+
+# Hadoop Cluster
+- cluster architecture diagram
+    - 1 master and 2 workers nodes
+    - HDFS, YARN, Zeppelin, Hive (hive Server, hive metastore, RDBMS), etc.
+- Big data tools you evaluated (e.g. MapReduce, YARN, HDFS, Hive, Zeppelin, etc..)
+- hardware specifications
+
+# Hive Project
+- Discuss how you optimized Hive queries? (e.g. partitions, columnar, etc..)
+- Post your Zeppelin Notebook screenshot here
+    - Make sure your Notebook is nice and clean as hiring managers will visit your project
+    - use `Full Page Screen Capture` chrome extension to capture a webpage as a picture
+
+# Improvements
+- at least three improvements
