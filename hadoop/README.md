@@ -19,11 +19,9 @@ Data Sources: Google Public Data (hosted on Google BigQuery), [worldbank_wdi](ht
 Software: GCP DataProc, HiveQl, Zeppelin notebook, and  Git
 
 # Hadoop Cluster
-- cluster architecture diagram
-    - 1 master and 2 workers nodes
-    - HDFS, YARN, Zeppelin, Hive (hive Server, hive metastore, RDBMS), etc.
-- Big data tools you evaluated (e.g. MapReduce, YARN, HDFS, Hive, Zeppelin, etc..)
-- hardware specifications
+<p align="center">
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/linux_sql/assets/Architecture-linux_sql%20(1).jpg" alt=""/>
+</p>
 
 # Hive Project
 - Discuss how you optimized Hive queries? (e.g. partitions, columnar, etc..)
