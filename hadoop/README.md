@@ -1,6 +1,7 @@
 # Hadoop Project
 Table of contents
 * [Introduction](#Introduction)
+* [Technologies Used](#TechnologiesUsed)
 * [Technologies Used](#Technologies Used)
 * [Hadoop Cluster](#Hadoop Cluster)
 * [Hive Project](#Hive Project)
@@ -16,6 +17,7 @@ the business problems. The data is tested using table views and queries.
 
 ## Technologies Used:
 Data Sources: Google Public Data (hosted on Google BigQuery), [worldbank_wdi](https://www.notion.so/jarvisdev/Setup-Hadoop-Cluster-04de4b26e5b1454fa2dcaf5f5c475d99#74dbd6c579334e78a7153860beb3d470)
+
 Software: GCP DataProc, HiveQl, Zeppelin notebook, and  Git
 
 # Hadoop Cluster
