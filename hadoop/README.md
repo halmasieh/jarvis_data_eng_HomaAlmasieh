@@ -20,6 +20,7 @@ Data Sources: Google Public Data (hosted on Google BigQuery), [worldbank_wdi](ht
 Software: GCP DataProc, HiveQl, Zeppelin notebook, and  Git
 
 # Hadoop Cluster
+A 3-node Hadoop cluster is provisioned with Google Cloud Platform Dataproc.
 <p align="center">
   <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hadoop_Architecture.PNG" alt=""/>
 </p>
