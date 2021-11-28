@@ -76,4 +76,5 @@ The Zeppelin Notebooke file of the hive project is accessible [here](https://git
 
 # Improvements
 - Use appropriate file format on the basis of data like ORCFILE File Formate. It will drastically increase our query performance.
-- 
+- Use Bucketing in Hive, which allows the user to divide table data sets into more manageable parts.
+- Use Hive Index to increase the query performance. Basically, for the original table, use of indexing will create a separate called index table which acts as a reference.
