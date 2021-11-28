@@ -75,4 +75,5 @@ The Zeppelin Notebooke file of the hive project is accessible [here](https://git
  
 
 # Improvements
-- at least three improvements
+- Use appropriate file format on the basis of data like ORCFILE File Formate. It will drastically increase our query performance.
+- 
