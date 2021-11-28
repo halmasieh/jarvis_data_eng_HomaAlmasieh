@@ -60,6 +60,11 @@ Apache Hive is an open source data warehouse software for reading, writing and m
 ### Zeppelin
 Apache Zeppelin is a web-based notebook that enables interactive data analytics. Interpreter is a pluggable layer for backend integration. 
 
+### Hardware Specifications
+- Master Node: 12GB memory, 100GB disk size
+- 2 Worker Nodes: 12GB memory, 100GB disk size
+- 4 YARN Cores: 12GB memory  
+
 # Hive Project
 - Discuss how you optimized Hive queries? (e.g. partitions, columnar, etc..)
 - Post your Zeppelin Notebook screenshot here
