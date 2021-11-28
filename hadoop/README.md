@@ -29,17 +29,17 @@ the HiveQl queries will be translated to MapReduce code that Hadoop can execute 
 
 ## Evaluated Big Data Tools
 ### MapReduce
-MapReduce a programming model for very large-scale data processing with a parallel, distributed algorithm on a cluster. To get advantage 
+MapReduce is a programming model for very large-scale data processing with a parallel, distributed algorithm on a cluster. To get advantage 
 of the parallel processing that Hadoop provides, we express our query as a MapReduce job. MapReduce has three operations as Map, Shuffle, and Reduce.
 
-- `Map:` In this phase data in each split is passed to a mapping function to produce output values.
+- `Map:` In this phase, data in each split is passed to a mapping function to produce output values.
 
-- `Shuffle:` This phase consums the output of mapping phase and its task is to consolidate the relevant records from mapping phase output.
+- `Shuffle:` This phase consumes the output of mapping phase and its task is to consolidate the relevant records from mapping phase output.
 
 - `Reduce:` In this phase, output values from shuffling phase are aggregated and returns a single output value. In short, this phase summarizes the complete dataset.
 
 ### YARN
-YARN is a a platform responsible for manging computing resources in clusters and using them for scheduling users' applications. YARN offers the ability to coordinate jobs across different nodes. The key components of YARN are ResourceManager(RM), NodeManager(NM) and ApplicationManger(AM). 
+YARN is a a platform responsible for managing computing resources in clusters and using them for scheduling users' applications. YARN offers the ability to coordinate jobs across different nodes. The key components of YARN are ResourceManager(RM), NodeManager(NM) and ApplicationManger(AM). 
 
 - `ResourceManager:' intracts with the NodeManager to keep an inventory of cluster-wide resource. It manages the availability and allocation of the resources thus gaining the ultimate authority of managing the resources.
 
@@ -75,6 +75,6 @@ The Zeppelin Notebooke file of the hive project is accessible [here](https://git
  
 
 # Improvements
-- Use appropriate file format on the basis of data like ORCFILE File Formate. It will drastically increase our query performance.
+- Use appropriate file format on the basis of data like ORCFILE File Format. It will drastically increase our query performance.
 - Use Bucketing in Hive, which allows the user to divide table data sets into more manageable parts.
 - Use Hive Index to increase the query performance. Basically, for the original table, use of indexing will create a separate called index table which acts as a reference.
