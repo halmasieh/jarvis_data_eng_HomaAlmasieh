@@ -66,7 +66,9 @@ Apache Zeppelin is a web-based notebook that enables interactive data analytics.
 - 4 YARN Cores: 12GB memory  
 
 # Hive Project
-- Discuss how you optimized Hive queries? (e.g. partitions, columnar, etc..)
+We optimized HQL query using Hive partition feature and columnar file optimization.
+- Hive Partition: We created the partitioned table by year. This action improves the performance for queries that involve year attribute
+- Columnar File: We created a table named wdi_csv_parquet an dstored as parquet. 
 - Post your Zeppelin Notebook screenshot here
     - Make sure your Notebook is nice and clean as hiring managers will visit your project
     - use `Full Page Screen Capture` chrome extension to capture a webpage as a picture
