@@ -25,7 +25,14 @@ A 3-node Hadoop cluster is provisioned with Google Cloud Platform Dataproc.
   <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hadoop_Architecture.PNG" alt=""/>
 </p>
 In the architecture, the client uses the browser to access the Zeppelin server that is running from the Google Cloud Hadoop cluster. All 
-the HiveQl queries will be translated toMapReduce code that Hadoop can execute on its cluster, using YARN node manager and the data provided in its HDFS.     
+the HiveQl queries will be translated toMapReduce code that Hadoop can execute on its cluster, using YARN node manager and the data provided in its HDFS.
+
+## Evaluated Big Data Tools
+`MapReduce` is a programming model for very large-scale data processing with a parallel, distributed algorithm on a cluster. To get advantage 
+of the parallel processing that Hadoop provides, we express our query as a MapReduce job. MapReduce has three operations as Map, Shuffle, and Reduce.
+`Map:`In this phase data in each split is passed to a mapping function to produce output values.
+`Shuffle:` This phase consums the output of mapping phase and its task is to consolidate the relevant records from mapping phase output.
+`Reduce:' In this phase, output values from shuffling phase are aggregated and returns a single output value. In short, this phase summarizes the complete dataset.
 
 # Hive Project
 - Discuss how you optimized Hive queries? (e.g. partitions, columnar, etc..)
