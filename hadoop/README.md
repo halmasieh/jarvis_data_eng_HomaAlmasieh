@@ -66,9 +66,10 @@ Apache Zeppelin is a web-based notebook that enables interactive data analytics.
 - 4 YARN Cores: 12GB memory  
 
 # Hive Project
-We optimized HQL query using Hive partition feature and columnar file optimization.
-- Hive Partition: We created the partitioned table by year. This action improves the performance for queries that involve year attribute
-- Columnar File: We created a table named wdi_csv_parquet an dstored as parquet. 
+We optimized HQL query using Hive partition feature and columnar file format.
+- Hive Partition: We created the partitioned table by year. This action improves the performance for queries that involve year attribute.
+- Columnar File: We created a table named wdi_csv_parquet an dstored as parquet. This format stores data by column not by row and it allows for faster retrieval of columns of data.
+- SparkSQL: Use %spark.sql to switch to Spark interpreter. Apache Spark is a fast and general-purpose cluster computing system. It is supported in Zeppelin with Spark interpreter. By using the Spark interpreter, the execution time is significantly reduced compared to the Hive Tez query.   
 - Post your Zeppelin Notebook screenshot here
     - Make sure your Notebook is nice and clean as hiring managers will visit your project
     - use `Full Page Screen Capture` chrome extension to capture a webpage as a picture
