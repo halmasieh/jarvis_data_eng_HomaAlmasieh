@@ -28,7 +28,8 @@ In the architecture, the client uses the browser to access the Zeppelin server t
 the HiveQl queries will be translated toMapReduce code that Hadoop can execute on its cluster, using YARN node manager and the data provided in its HDFS.
 
 ## Evaluated Big Data Tools
-`MapReduce:` is a programming model for very large-scale data processing with a parallel, distributed algorithm on a cluster. To get advantage 
+### MapReduce
+MapReduce a programming model for very large-scale data processing with a parallel, distributed algorithm on a cluster. To get advantage 
 of the parallel processing that Hadoop provides, we express our query as a MapReduce job. MapReduce has three operations as Map, Shuffle, and Reduce.
 
 `Map:` In this phase data in each split is passed to a mapping function to produce output values.
