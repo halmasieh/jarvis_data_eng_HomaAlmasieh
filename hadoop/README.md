@@ -37,6 +37,10 @@ of the parallel processing that Hadoop provides, we express our query as a MapRe
 
 `Reduce:` In this phase, output values from shuffling phase are aggregated and returns a single output value. In short, this phase summarizes the complete dataset.
 
+`YARN:` is a a platform responsible for manging computing resources in clusters and using them for scheduling users' applications. YARN offers the ability to coordinate jobs across different nodes. The key components of YARN are ResourceManager(RM), NodeManager(NM) and ApplicationManger(AM). 
+
+``
+
 # Hive Project
 - Discuss how you optimized Hive queries? (e.g. partitions, columnar, etc..)
 - Post your Zeppelin Notebook screenshot here
