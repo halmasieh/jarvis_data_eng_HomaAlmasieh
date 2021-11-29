@@ -22,7 +22,7 @@ Software: GCP DataProc, HiveQl, Zeppelin notebook, and  Git
 # Hadoop Cluster
 A 3-node Hadoop cluster is provisioned with Google Cloud Platform Dataproc.
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hadoop_Architecture.PNG" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hadoop_Architecture.PNG" width="750" height="500" alt=""/>
 </p>
 In the architecture, the client uses the browser to access the Zeppelin server that is running from the Google Cloud Hadoop cluster. All 
 the HiveQl queries will be translated to MapReduce code that Hadoop can execute on its cluster, using YARN node manager and the data provided in its HDFS.
