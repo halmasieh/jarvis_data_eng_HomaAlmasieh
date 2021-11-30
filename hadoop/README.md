@@ -22,7 +22,7 @@ Software: GCP DataProc, HiveQl, Zeppelin notebook, and  Git
 # Hadoop Cluster
 A 3-node Hadoop cluster is provisioned with Google Cloud Platform Dataproc.
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hadoop_Architecture.PNG" alt=""/>
+  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hadoop_Architecture.PNG" width="750" height="500" alt=""/>
 </p>
 In the architecture, the client uses the browser to access the Zeppelin server that is running from the Google Cloud Hadoop cluster. All 
 the HiveQl queries will be translated to MapReduce code that Hadoop can execute on its cluster, using YARN node manager and the data provided in its HDFS.
@@ -71,7 +71,7 @@ We optimized HQL query using Hive partition feature and columnar file format.
 - `Columnar File Format:` We created a table named `wdi_csv_parquet` and stored as `parquet`. This format stores data by column not by row and it allows for faster retrieval of columns of data.
 - `SparkSQL:` Apache Spark is a fast and general-purpose cluster computing system. It is supported in Zeppelin with Spark interpreter. By using the Spark interpreter, the execution time is significantly reduced compared to the Hive Tez query.   
 
-The Zeppelin Notebooke file of the hive project is accessible [here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Hive%20Project.pdf).
+The Zeppelin Notebooke file of the hive project is accessible [here](https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/hadoop/assets/Jarvis_Hive_Project.png).
  
 
 # Improvements
