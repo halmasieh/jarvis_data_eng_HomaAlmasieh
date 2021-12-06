@@ -41,7 +41,7 @@ of the parallel processing that Hadoop provides, we express our query as a MapRe
 ### YARN
 YARN is a a platform responsible for managing computing resources in clusters and using them for scheduling users' applications. YARN offers the ability to coordinate jobs across different nodes. The key components of YARN are ResourceManager(RM), NodeManager(NM) and ApplicationManger(AM). 
 
-- `ResourceManager:' intracts with the NodeManager to keep an inventory of cluster-wide resource. It manages the availability and allocation of the resources thus gaining the ultimate authority of managing the resources.
+- `ResourceManager:` intracts with the NodeManager to keep an inventory of cluster-wide resource. It manages the availability and allocation of the resources thus gaining the ultimate authority of managing the resources.
 
 - `NodeManager:` is for the purpose of memory management. Node Manager tracks the usage and status of the cluster inventories such as CPU, memory, and network on the local data server and reports the status regularly to the Resource Manager. A Node Manager daemon is assigned to every single data server. This holds the parallel programming in place.
 
