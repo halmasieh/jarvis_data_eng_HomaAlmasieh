@@ -9,7 +9,7 @@ Table of contents
 # Introduction
 The Hadoop project is processed for the purpose of data analytics on big data. 
 We evaluated core Hadoop components, including MapReduce, HDFS, and YARN. In this regard, three node 
-Hadoop clusters are provisioned with GDP DataProc service, containing one master node and two worker nodes.
+Hadoop clusters are provisioned with GCP DataProc service, containing one master node and two worker nodes.
 The data is stored in Hive tables and analyzed using HiveQl queries and Zeppelin Notebook . 
 However, HQL queries were optimized using Hive partitions and Columnar file optimizations to solve 
 the business problems. The data is tested using table views and queries.
