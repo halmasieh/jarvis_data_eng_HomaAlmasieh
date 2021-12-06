@@ -58,7 +58,7 @@ HDFS is a distributed file system that handles large data sets running on commod
 Apache Hive is an open source data warehouse software for reading, writing and managing large data set files that are stored directly in either the Apache Hadoop Distributed File System (HDFS) or other data storage systems such as Apache HBase. Hive enables SQL developers to write Hive Query Language (HQL) statements that are similar to standard SQL statements for data query and analysis.  It is designed to make MapReduce programming easier because we don’t have to know and write lengthy Java code. Instead, we can write queries more simply in HQL, and Hive can then create the map and reduce the functions.
 
 ### Zeppelin
-Apache Zeppelin is a web-based notebook that enables interactive data analytics. Interpreter is a pluggable layer for backend integration. 
+Apache Zeppelin is a web-based notebook that enables interactive data analytics. Interpreter is a plugable layer for backend integration. 
 
 ### Hardware Specifications
 - Master Node: 12GB memory, 100GB disk size
