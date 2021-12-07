@@ -39,7 +39,7 @@ of the parallel processing that Hadoop provides, we express our query as a MapRe
 - `Reduce:` In this phase, output values from shuffling phase are aggregated and returns a single output value. In short, this phase summarizes the complete dataset.
 
 ### YARN
-YARN is a a platform responsible for managing computing resources in clusters and using them for scheduling users' applications. YARN offers the ability to coordinate jobs across different nodes. The key components of YARN are ResourceManager(RM), NodeManager(NM) and ApplicationManger(AM). 
+YARN is a platform responsible for managing computing resources in clusters and using them for scheduling users' applications. YARN offers the ability to coordinate jobs across different nodes. The key components of YARN are ResourceManager(RM), NodeManager(NM) and ApplicationManger(AM). 
 
 - `ResourceManager:` intracts with the NodeManager to keep an inventory of cluster-wide resource. It manages the availability and allocation of the resources thus gaining the ultimate authority of managing the resources.
 
