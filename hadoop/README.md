@@ -50,7 +50,7 @@ YARN is a platform responsible for managing computing resources in clusters and 
 ### HDFS
 HDFS is a distributed file system that handles large data sets running on commodity hardware. HDFS is one of the major components of Apache Hadoop. The components of HDFS are Blocks, Namenode, and Datanodes.
 
-- `Block` HDFS breaks down a file into smaller units. This, however, is transparent to the user working on HDFS.  machine.
+- `Block` HDFS breaks down a file into smaller units. This, however, is transparent to the user working on HDFS machine.
 - `Namenode` is the master node that runs on a separate node in the cluster. It manages the filesystem namespace which is the filesystem tree or hierarchy of the files and directories. It also stores information like owners of files, file permissions, etc for all the files.
 - `Datanode` is the worker node and is responsible for storing, retrieving, replicating, deletion, etc. of blocks when asked by the Namenode.  
 
