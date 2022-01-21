@@ -1,14 +1,27 @@
 # Introduction
 In the [Python Data Analytics](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_analytics) project
+, we have successfully performed a data analytics solution for the London Gift Shop (LGS) marketing team
+with Jupyter Notebook.
+
+In the current project, the marketing team of LGS decided to re-architect teh business solution using Apache
+Spark, since the existing Jupyter Notebook runs on a single machine and it would not be able to handle a large
+dataset. They performed a framework that allows big data processing in a cluster using two Spark running environment-
+Zeppelin (on Hadoop) and Databricks (on Azure).
+
+
+
 
 
 ## Technologies Used:
-Data Sources: online_retail_II.csv, and retail.sql
+Data Sources: online_retail_II.csv
 
-Software: Jupyter Notebook, PostgresSQL, Git, Docker and Linux(CentOS7)
+Software: Azure Databrick Notebook, Git, and Linux(CentOS7)
 
-Library: pandas, numpy, matplotlib, sqlalchemy, scipy, seaborn, and datetime
-# Implementaion
+Library: pyspark
+# Databricks Implementation
+- Describe the dataset and your analytics work (make sure you create a link to your ipynb)
+- Describe the architecture (e.g. Databricks, DBFS, Azure, Azure storage, Hive Metastore, PySpark, data flow, etc..)
+- Draw an architecture diagram
 
 
 ## Project Architecture
