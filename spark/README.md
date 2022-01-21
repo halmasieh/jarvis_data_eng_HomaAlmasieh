@@ -1,12 +1,12 @@
 # Introduction
-In the [Python Data Analytics](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_analytics) project
+In the [Python Data Analytics](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG) project
 , we have successfully performed a data analytics solution for the London Gift Shop (LGS) marketing team
 with Jupyter Notebook.
 
-In the current project, the marketing team of LGS decided to re-architect teh business solution using Apache
+In the current project, the marketing team of LGS decided to re-architect the business solution using Apache
 Spark, since the existing Jupyter Notebook runs on a single machine and it would not be able to handle a large
-dataset. They performed a framework that allows big data processing in a cluster using two Spark running environment-
-Zeppelin (on Hadoop) and Databricks (on Azure).
+dataset. They performed a framework that allows big data processing in a cluster using Spark running environment-
+Databricks (on Azure).
 
 
 
