@@ -52,6 +52,12 @@ to increase their revenue. In this regard, the analysis can be performed to dete
 - RFM Analysis: We performed RFM analysis to determine Customer Distribution
 Based on Recency, Frequency and Monetary.
 
+## Describtion of the Architecture
+
+<p align="center">
+  <img src="https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG" alt=""/>
+</p>
+
 # Improvements
 - Add more features to the dataset which affect the customer segmentation such as seasonal or occasional choices
 - Create machine learning models to predict the behavior of the customers, sales growth and the company's revenue in the future
