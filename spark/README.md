@@ -42,7 +42,7 @@ to increase their revenue. In this regard, the analysis can be performed to dete
   - Monthly Sales
   - Monthly Active Users
   - New and Existing Users
-In addition to, we performed RFM analysis to determine Customer Distribution
+- RFM Analysis: We performed RFM analysis to determine Customer Distribution
 Based on Recency, Frequency and Monetary.
 
 # Improvements
