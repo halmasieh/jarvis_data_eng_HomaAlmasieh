@@ -18,16 +18,16 @@ Library: pyspark
 # Databricks Implementation
 The dataset consists of two years' worth of transaction data stored in a online_retail_II.csv file and the attributes
 are shown as the following:
-| Attribute     | Data Type   | Description                                     |
-| :---------    | :---------  | :---------                                      |
-| `Invoice`     | `string`    | `Identifies the invoice the record belongs to   |
-| `StockCode`   | `string`    | `Identifies the the item purchased              |
-| `Description` | `string`    | `Describes the purchased item                   |
-| `Quantity`    | `integer`   | `Counts how many items of the same stock_code were purchased   |
-| `InvoiceDate` | `timestamp` | `The date and time that the transaction occurred               |
-| `Price`       | `double`    | `Unit price of item purchased                   |
-| `Customer ID` | `double`    | `Identifies the customer who made the purchased |
-| `Country`     | `string`    | `The country the customer lives in              |
+| Attribute     | Data Type   | Description                                      |
+| :---------    | :---------  | :---------                                       |
+| `Invoice`     | `string`    | `Identifies the invoice the record belongs to`   |
+| `StockCode`   | `string`    | `Identifies the the item purchased`              |
+| `Description` | `string`    | `Describes the purchased item`                   |
+| `Quantity`    | `integer`   | `Counts how many items of the same stock_code were purchased`   |
+| `InvoiceDate` | `timestamp` | `The date and time that the transaction occurred`               |
+| `Price`       | `double`    | `Unit price of item purchased`                   |
+| `Customer ID` | `double`    | `Identifies the customer who made the purchased` |
+| `Country`     | `string`    | `The country the customer lives in`              |
 
 - Describe the architecture (e.g. Databricks, DBFS, Azure, Azure storage, Hive Metastore, PySpark, data flow, etc..)
 - Draw an architecture diagram
