@@ -26,7 +26,7 @@ Library: pyspark
 
 ## Project Architecture
 <p align="center">
-  <img src="https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG" width="750" height="500" alt=""/>
+  <img src="https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG" alt=""/>
 </p>
 
 The LGS IT team provides a high-level system design to store the transactional data which manages by their own Azure system and
