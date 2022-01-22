@@ -1,5 +1,5 @@
 # Introduction
-In the [Python Data Analytics](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG) project
+In the [Python Data Analytics](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_analytics) project
 , we have successfully performed a data analytics solution for the London Gift Shop (LGS) marketing team
 with Jupyter Notebook.
 
@@ -26,7 +26,7 @@ Library: pyspark
 
 ## Project Architecture
 <p align="center">
-  <img src="https://github.com/halmasieh/-jarvis_data_eng_HomaAlmasieh/blob/develop/python_data_analytics/assets/Architecture_Data_Analytics.PNG" width="750" height="500" alt=""/>
+  <img src="https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG" width="750" height="500" alt=""/>
 </p>
 
 The LGS IT team provides a high-level system design to store the transactional data which manages by their own Azure system and
