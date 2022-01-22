@@ -52,11 +52,15 @@ to increase their revenue. In this regard, the analysis can be performed to dete
 - RFM Analysis: We performed RFM analysis to determine Customer Distribution
 Based on Recency, Frequency and Monetary.
 
-## Describtion of the Architecture
+## System Architecture
 
 <p align="center">
   <img src="https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/Architecture-Databricks2.PNG" alt=""/>
 </p>
+
+We dumped the table data to a csv file and re-implemented Data Analytics using PySpark.
+The Spark Application is implemented by Databricks, and runs on virtual machines belonging to a data cluster provisioned by Azure Virtual Machine.
+Access to Databricks Notebook is [here](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/blob/develop/spark/assets/RetailDataAnalyticsWithDatabricks.png).
 
 # Improvements
 - Add more features to the dataset which affect the customer segmentation such as seasonal or occasional choices
