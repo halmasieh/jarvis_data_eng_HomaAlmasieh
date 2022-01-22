@@ -8,18 +8,27 @@ Spark, since the existing Jupyter Notebook runs on a single machine and it would
 dataset. They performed a framework that allows big data processing in a cluster using Spark running environment-
 Databricks (on Azure).
 
-
-
-
-
 ## Technologies Used:
 Data Sources: online_retail_II.csv
 
 Software: Azure Databrick Notebook, Git, and Linux(CentOS7)
 
 Library: pyspark
+
 # Databricks Implementation
-- Describe the dataset and your analytics work (make sure you create a link to your ipynb)
+The dataset consists of two years' worth of transaction data stored in a online_retail_II.csv file and the attributes
+are shown as the following:
+| Attribute     | Data Type   | Description                                     |
+| :---------    | :---------  | :---------                                      |
+| `Invoice`     | `string`    | `Identifies the invoice the record belongs to   |
+| `StockCode`   | `string`    | `Identifies the the item purchased              |
+| `Description` | `string`    | `Describes the purchased item                   |
+| `Quantity`    | `integer`   | `Counts how many items of the same stock_code were purchased   |
+| `InvoiceDate` | `timestamp` | `The date and time that the transaction occurred               |
+| `Price`       | `double`    | `Unit price of item purchased                   |
+| `Customer ID` | `double`    | `Identifies the customer who made the purchased |
+| `Country`     | `string`    | `The country the customer lives in              |
+
 - Describe the architecture (e.g. Databricks, DBFS, Azure, Azure storage, Hive Metastore, PySpark, data flow, etc..)
 - Draw an architecture diagram
 
