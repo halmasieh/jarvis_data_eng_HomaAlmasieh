@@ -1,3 +1,10 @@
+# Scala/Spark Project
+Table of contents
+* [Introduction](#Introduction)
+* [Technologies Used](#TechnologiesUsed)
+* [Azure Databricks Implementation](#AzureDatabricksImplementation)
+* [Improvements](#Improvements)
+
 # Introduction
 In the [Python Data Analytics](https://github.com/jarviscanada/jarvis_data_eng_HomaAlmasieh/tree/master/python_data_analytics) project
 , we have successfully performed a data analytics solution for the London Gift Shop (LGS) marketing team
@@ -8,7 +15,7 @@ Spark, since the existing Jupyter Notebook runs on a single machine and it would
 dataset. They performed a framework that allows big data processing in a cluster using Spark running environment-
 Databricks (on Azure).
 
-## Technologies Used:
+# Technologies Used:
 Data Sources: online_retail_II.csv
 
 Software: Azure Databrick Notebook, Git, and Linux(CentOS7)
